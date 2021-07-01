@@ -82,7 +82,7 @@ advcl(človek,blaten)
 
 ~~~ sdparse
 pravilno je postavil diagnozo
-advcl(postavil,pravilno)
+advmod(postavil,pravilno)
 ~~~
 
 ~~~ sdparse
