@@ -84,11 +84,6 @@ advcl(človek,blaten)
 pravilno je postavil diagnozo
 advmod(postavil,pravilno)
 ~~~
-
-~~~ sdparse
-Prišla je oblečena v eleganten komplet s svetlomodro bluzo .
-advmod(Prišla,oblečena)
-~~~
 ~~~ sdparse
 elektroda je navadno nameščena na bolnikovem hrbtu
 advmod(nameščena,navadno)
@@ -100,5 +95,18 @@ advmod(poročali,že)
 ~~~ sdparse
 še pes ima rad mir pri jedi
 advmod(ima,rad)
+~~~
+
+~~~ sdparse
+Rupla	ne skrbi usoda slovenskega jezika v EU .
+advmod(skrbi,ne)
+~~~
+~~~ sdparse
+Po tej poti so	lahko konji vlekli vprege . 
+advmod(vlekli,lahko)
+~~~
+~~~ sdparse
+Le zakaj	naj bi ju porinila ven ?
+advmod(porinila,naj)
 ~~~
 
