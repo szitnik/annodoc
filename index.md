@@ -53,6 +53,32 @@ Ponesrečeno žensko so hudo ranjeno odpeljali v UKC .
 acl(žensko,ranjeno)
 ~~~
 
+#### Primeri za advcl
+~~~ sdparse
+Premišljeval je o Jayu in njegovih prijateljih , ko je prečkal temačno parkirišče .
+advcl(Premišljeval,prečkal)
+~~~
+~~~ sdparse
+Čeprav so poroke večinoma veseli dogodki , so lahko priprave na to slavje polne težav .
+advcl(težav,dogodki)
+~~~
+
+
+~~~ sdparse
+Njihovo življenje je malce bolj umirjeno , kot smo ga vajeni .
+advcl(umirjeno,vajeni)
+~~~
+
+~~~ sdparse
+Prišla je oblečena v eleganten komplet s svetlomodro bluzo .
+advcl(Prišla,oblečena)
+~~~
+~~~ sdparse
+Ves blaten sem bil ob srečanju s kagujem nenadoma najsrečnejši človek .
+advcl(človek,blaten)
+~~~
+
+
 
 
 
