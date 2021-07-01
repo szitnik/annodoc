@@ -123,3 +123,25 @@ advmod(ljubi,ne)
 advmod(ljubi,prav)
 ~~~
 
+
+
+
+
+
+~~~ sdparse
+največji uspeh doslej
+advmod(uspeh,doslej)
+~~~
+~~~ sdparse
+v torek zvečer
+advmod(torek,zvečer)
+~~~
+~~~ sdparse
+popke takoj ob začetku sušenja hitro segrejejo
+advmod(začetku,takoj)
+~~~
+
+~~~ sdparse
+ vložki iz krp, spletene volne, gobe in celo	trave
+advmod(trave,celo)
+~~~
