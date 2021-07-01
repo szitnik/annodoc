@@ -16,4 +16,18 @@ T2 ORGANIZATION 21 29	Mercator
 R1 ITI_V_TRGOVINO Arg1:T1 Arg2:T2
 ~~~
 
-To je zelo specifična povezava, ki vpliva na zelo velijo jezikovnih značilnosti, o katerih se bomo razpisali v nadaljevanju .... To pa Kajin test prikazovanja na spletni strani.
+To je zelo specifična povezava, ki vpliva na zelo velijo jezikovnih značilnosti, o katerih se bomo razpisali v nadaljevanju .... 
+
+To pa Kajin test prikazovanja na spletni strani.
+~~~ sdparse
+Il y a Marie qui danse dans la pièce . \n Marie dances in the room .
+nsubj(a,Il)
+advmod(a,y)
+obj(a,Marie)
+advcl:cleft(Marie,danse)
+nsubj(danse,qui)
+obl(danse,pièce)
+case(pièce,dans)
+det(pièce,la)
+punct(a,.)
+~~~
