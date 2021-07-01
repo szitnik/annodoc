@@ -42,7 +42,7 @@ acl(tisto,zapustili)
 <!--- prilastkovi odvisniki--->
 ~~~ sdparse
 Lase je imela pristrižene .
-acl(lase,pristrižene)
+acl(Lase,pristrižene)
 ~~~
 ~~~ sdparse
 Vsa prestrašena je Mrvica stekla po pomoč .
