@@ -78,7 +78,27 @@ Ves blaten sem bil ob srečanju s kagujem nenadoma najsrečnejši človek .
 advcl(človek,blaten)
 ~~~
 
+#### Primeri za advmod
 
+~~~ sdparse
+pravilno je postavil diagnozo
+advcl(postavil,pravilno)
+~~~
 
-
+~~~ sdparse
+Prišla je oblečena v eleganten komplet s svetlomodro bluzo .
+advmod(Prišla,oblečena)
+~~~
+~~~ sdparse
+elektroda je navadno nameščena na bolnikovem hrbtu
+advmod(nameščena,navadno)
+~~~
+~~~ sdparse
+kot smo že poročali
+advmod(poročali,že)
+~~~
+~~~ sdparse
+še pes ima rad mir pri jedi
+advmod(ima,rad)
+~~~
 
