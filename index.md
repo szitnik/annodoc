@@ -109,4 +109,17 @@ advmod(vlekli,lahko)
 Le zakaj	naj bi ju porinila ven ?
 advmod(porinila,naj)
 ~~~
+~~~ sdparse
+normalno delujoče mišice
+advmod(delujoče,normalno)
+~~~
+~~~ sdparse
+dogodki so se odvijali bistveno drugače
+advmod(drugače,bistveno)
+~~~
+~~~ sdparse
+farmarjem ne prav ljubi časopisi
+advmod(ljubi,ne)
+advmod(ljubi,prav)
+~~~
 
