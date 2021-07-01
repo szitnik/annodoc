@@ -39,17 +39,17 @@ nsubj(run, Dogs)
 
 #### Primeri za acl
 ~~~ sdparse
-Točno tako je s standardi, ki nastajajo v internetu.
-acl(standardi,nastajajo)
+Točno tako je s standardi , ki nastajajo v internetu .
+acl(standardi, nastajajo)
 ~~~
 
 ~~~ sdparse
-V hiši, v kateri so stanovali, so imeli skupna stranišča.
+V hiši , v kateri so stanovali , so imeli skupna stranišča .
 acl(hiši,stanovali)
 ~~~
 
 ~~~ sdparse
-Kaj je tisto, kar bomo z vso odgovornostjo zapustili našim dedičem ?
+Kaj je tisto , kar bomo z vso odgovornostjo zapustili našim dedičem ?
 acl(tisto,zapustili)
 ~~~
 
