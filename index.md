@@ -16,4 +16,4 @@ T2 ORGANIZATION 21 29	Mercator
 R1 ITI_V_TRGOVINO Arg1:T1 Arg2:T2
 ~~~
 
-To je zelo specifična povezava, ki vpliva na zelo velijo jezikovnih značilnosti, o katerih se bomo razpisali v nadaljevanju ....
+To je zelo specifična povezava, ki vpliva na zelo velijo jezikovnih značilnosti, o katerih se bomo razpisali v nadaljevanju .... To pa Kajin test prikazovanja na spletni strani.
