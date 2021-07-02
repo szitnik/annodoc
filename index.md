@@ -226,7 +226,7 @@ case(direktorica,kot)
 case(filharmoniji,V)
 ~~~
 
-#### cc
+#### cc, cc:preconj
 ~~~ sdparse
 mojstrica poslovne komunikacije	in svetovalka
 cc(svetovalka,in)
@@ -253,6 +253,19 @@ cc(učitelji,ne-8)
 cc:preconj(ravnatelji,ne-6)
 ~~~
 
+#### ccomp
+~~~ sdparse
+Ugotovili so tudi , da je izvleček baldrijana podaljšal delovanje barbituratov .
+ccomp(Ugotovili,podaljšal)
+~~~
+~~~ sdparse
+Prepričan sem , da je terjalo veliko korajže , je svečano rekel Tom .
+ccomp(Prepričan,terjalo)
+~~~
+~~~ sdparse
+Udeležence že opozarjajo , naj med tekom ne jemljejo vode iz rok neznanih gledalcev
+ccomp(opozarjajo,jemljejo)
+~~~
 
 
 
