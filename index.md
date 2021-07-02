@@ -319,7 +319,7 @@ Rečna jezera mrtvice so stalni spremljevalci Mure
 cop(spremljevalci,so)
 ~~~
 ~~~ sdparse
-Da, jaz	sem tisti, ki bi moral biti tukaj
+Da , jaz	sem tisti , ki bi moral biti tukaj
 cop(tisti,sem)
 ~~~
 ~~~ sdparse
