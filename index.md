@@ -351,14 +351,17 @@ csubj(doživelo,rekel)
 ~~~ sdparse
 Tako se večkrat zgodi , da so podjetja še vesela , če občani ne zberejo kaj dosti teh odpadkov .
 csubj(zgodi,vesela)
+cop(vesela,so)
 ~~~
 ~~~ sdparse
 Vprašanje je , ali jih bomo obdržali na listi . 
 csubj(Vprašanje,obdržali)
+cop(Vprašanje,je)
 ~~~
 ~~~ sdparse
 Bilo je	jasno , da ne bo mogel prebrati knjige .
 csubj(jasno,mogel)
+cop(jasno,Bilo)
 ~~~
 
 
