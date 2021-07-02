@@ -279,6 +279,7 @@ punct(Čehi,,)
 Vitka Ribičič je postregla s kratkim , a jasnim odgovorom
 conj(kratkim,jasnim)
 cc(jasnim,a)
+punct(jasnim,,)
 ~~~
 ~~~ sdparse
 drugi so bolj ali manj zanimivi
