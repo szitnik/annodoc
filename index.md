@@ -308,3 +308,18 @@ Ko si enkrat na vrhu in se poškoduješ , se je težko vrniti .
 conj(si,poškoduješ)
 cc(poškoduješ,in)
 ~~~
+
+#### cop
+~~~ sdparse
+Začetek izvajanja programa je odvisen od podpisa sporazuma
+cop(odvisen,je)
+~~~
+~~~ sdparse
+Rečna jezera mrtvice so stalni spremljevalci Mure 
+cop(spremljevalci,so)
+~~~
+~~~ sdparse
+Da, jaz	sem tisti, ki bi moral biti tukaj
+cop(tisti,sem)
+~~~
+
