@@ -172,11 +172,11 @@ amod(ladja,velika)
 
 #### appos
 ~~~ sdparse
-Območje medenice je središče telesa, glavna peč , ki greje in uravnava vse telo
+Območje medenice je središče telesa , glavna peč , ki greje in uravnava vse telo
 amod(telesa,peč)
 ~~~
 ~~~ sdparse
-Dianne se je sprla z Liso , svojo	prijateljico, in se je odločila, da gre domov 
+Dianne se je sprla z Liso , svojo	prijateljico , in se je odločila, da gre domov 
 amod(Liso,prijateljico)
 ~~~
 
