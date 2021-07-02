@@ -322,4 +322,8 @@ cop(spremljevalci,so)
 Da, jaz	sem tisti, ki bi moral biti tukaj
 cop(tisti,sem)
 ~~~
-
+~~~ sdparse
+Niti prijatelja nista več bila
+cop(prijatelja,bila)
+aux(prijatelja,nista)
+~~~
