@@ -243,6 +243,10 @@ cc(Broda,oz.)
 Vprašanje se morda zdi absurdno , vendar je nekaj vzporednic .
 cc(je,vendar)
 ~~~
+~~~ sdparse
+A slednjega se pri Peugeotu gotovo ne bojijo več .
+cc(bojijo,A)
+~~~
 
 
 
