@@ -170,5 +170,14 @@ nova ladja , velika 1350 kvadratnih metrov
 amod(ladja,velika)
 ~~~
 
+#### appos
+~~~ sdparse
+Območje medenice je središče telesa, glavna peč , ki greje in uravnava vse telo
+amod(telesa,peč)
+~~~
+~~~ sdparse
+Dianne se je sprla z Liso , svojo	prijateljico, in se je odločila, da gre domov 
+amod(Liso,prijateljico)
+~~~
 
 
