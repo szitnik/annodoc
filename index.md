@@ -147,8 +147,8 @@ advmod(trave,celo)
 #### amod
 ~~~ sdparse
 v vrste prostovoljnega gasilskega društva Dolga vas
-amod(društvo,prostovoljnega)
-amod(društvo,gasilskega)
+amod(društva,prostovoljnega)
+amod(društva,gasilskega)
 amod(vas,Dolga)
 ~~~
 ~~~ sdparse
@@ -158,15 +158,15 @@ amod(nekaj,drugega)
 
 
 ~~~ sdparse
-Se strinjate s trditvijo, postavljeno v naslovu pesmi ?
+Se strinjate s trditvijo , postavljeno v naslovu pesmi ?
 amod(trditvijo,postavljeno)
 ~~~
 ~~~ sdparse
-Spremeni se v temen vzorec, podoben šahovnici .
+Spremeni se v temen vzorec , podoben šahovnici .
 amod(vzorec,podoben)
 ~~~
 ~~~ sdparse
-nova ladja, velika 1350 kvadratnih metrov
+nova ladja , velika 1350 kvadratnih metrov
 amod(ladja,velika)
 ~~~
 
