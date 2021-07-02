@@ -215,6 +215,17 @@ case(ponvi,V)
 case(pet,do)
 ~~~
 
+~~~ sdparse
+bodice , ki pri hranjenju delujejo	kot filter
+case(hranjenju,pri)
+case(filter,kot)
+~~~
+~~~ sdparse
+V Slovenski filharmoniji je kot poslovna in programska direktorica izpeljala projekt obnove stavbe
+case(direktorica,kot)
+case(filharmoniji,V)
+~~~
+
 
 
 
