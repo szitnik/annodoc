@@ -267,6 +267,29 @@ Udeležence že opozarjajo , naj med tekom ne jemljejo vode iz rok neznanih gled
 ccomp(opozarjajo,jemljejo)
 ~~~
 
+#### conj
+~~~ sdparse
+z Rusi , Čehi in	Španci ni bilo pretirane nevarnosti za poraz
+conj(Rusi,Čehi)
+conj(Rusi,Španci)
+cc(Španci,in)
+punct(Čehi,,)
+~~~
+~~~ sdparse
+Vitka Ribičič je postregla s kratkim , a jasnim odgovorom
+conj(kratkim,jasnim)
+cc(jasnim,a)
+~~~
+~~~ sdparse
+drugi so bolj ali manj zanimivi
+conj(bolj,manj)
+cc(manj,ali)
+~~~
+~~~ sdparse
+opaziti je že tudi predstavnike ruske finančno - ekonomske elite
+conj(finančno,ekonomske)
+punct(ekonomske,-)
+~~~
 
 
 
