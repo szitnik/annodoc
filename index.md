@@ -342,3 +342,23 @@ cop(prepovedano,bilo)
 aux(prepovedano,je)
 nsubj(prepovedano,kajenje)
 ~~~
+
+#### csubj
+~~~ sdparse
+Karkoli že bi ruski predsednik rekel študentom , bi tukaj doživelo uspeh .
+csubj(doživelo,rekel)
+~~~
+~~~ sdparse
+Tako se večkrat zgodi , da so podjetja še vesela , če občani ne zberejo kaj dosti teh odpadkov .
+csubj(zgodi,vesela)
+~~~
+~~~ sdparse
+Vprašanje je , ali jih bomo obdržali na listi . 
+csubj(Vprašanje,obdržali)
+~~~
+~~~ sdparse
+Bilo je	jasno , da ne bo mogel prebrati knjige .
+csubj(jasno,mogel)
+~~~
+
+
