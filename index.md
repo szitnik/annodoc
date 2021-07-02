@@ -13,8 +13,8 @@ Tu prikazujemo način označevanja povezav iti v trgovino.
 
 ~~~ ann
 Janez Novak je šel v Mercator, kjer imajo slastne žemlje, polnjene s šunko, sirom in kumaricami - njami!
-T1 PERSON 0 11	Janez Novak
-T2 ORGANIZATION 21 29	Mercator
+T1 PERSON 0 11 Janez Novak
+T2 ORGANIZATION 21 29 Mercator
 R1 ITI_V_TRGOVINO Arg1:T1 Arg2:T2
 ~~~
 
@@ -98,15 +98,15 @@ advmod(ima,rad)
 ~~~
 
 ~~~ sdparse
-Rupla	ne skrbi usoda slovenskega jezika v EU .
+Rupla ne skrbi usoda slovenskega jezika v EU .
 advmod(skrbi,ne)
 ~~~
 ~~~ sdparse
-Po tej poti so	lahko konji vlekli vprege . 
+Po tej poti so lahko konji vlekli vprege . 
 advmod(vlekli,lahko)
 ~~~
 ~~~ sdparse
-Le zakaj	naj bi ju porinila ven ?
+Le zakaj naj bi ju porinila ven ?
 advmod(porinila,naj)
 ~~~
 ~~~ sdparse
@@ -140,7 +140,7 @@ advmod(začetku,takoj)
 ~~~
 
 ~~~ sdparse
- vložki iz krp, spletene volne, gobe in celo	trave
+ vložki iz krp, spletene volne, gobe in celo trave
 advmod(trave,celo)
 ~~~
 
@@ -176,7 +176,7 @@ Območje medenice je središče telesa , glavna peč , ki greje in uravnava vse 
 appos(telesa,peč)
 ~~~
 ~~~ sdparse
-Dianne se je sprla z Liso , svojo	prijateljico , in se je odločila, da gre domov 
+Dianne se je sprla z Liso , svojo prijateljico , in se je odločila, da gre domov 
 appos(Liso,prijateljico)
 ~~~
 
@@ -190,11 +190,11 @@ Za to bosta poskrbela Nikki in njen štirinožni ljubljenček
 aux(poskrbela,bosta)
 ~~~
 ~~~ sdparse
-Zakaj	bi divjali okoli , če to ni potrebno
+Zakaj bi divjali okoli , če to ni potrebno
 aux(divjali,bi)
 ~~~
 ~~~ sdparse
-Takrat naj bi se	bil proti njemu zagnal Robi .
+Takrat naj bi se bil proti njemu zagnal Robi .
 aux(zagnal,bi)
 aux(zagnal,bil)
 ~~~
@@ -216,7 +216,7 @@ case(pet,do)
 ~~~
 
 ~~~ sdparse
-bodice , ki pri hranjenju delujejo	kot filter
+bodice , ki pri hranjenju delujejo kot filter
 case(hranjenju,pri)
 case(filter,kot)
 ~~~
@@ -228,7 +228,7 @@ case(filharmoniji,V)
 
 #### cc, cc:preconj
 ~~~ sdparse
-mojstrica poslovne komunikacije	in svetovalka
+mojstrica poslovne komunikacije in svetovalka
 cc(svetovalka,in)
 ~~~
 ~~~ sdparse
@@ -269,7 +269,7 @@ ccomp(opozarjajo,jemljejo)
 
 #### conj
 ~~~ sdparse
-z Rusi , Čehi in	Španci ni bilo pretirane nevarnosti za poraz
+z Rusi , Čehi in Španci ni bilo pretirane nevarnosti za poraz
 conj(Rusi,Čehi)
 conj(Rusi,Španci)
 cc(Španci,in)
@@ -299,7 +299,7 @@ conj(zožile,spregovoril)
 cc(spregovoril,vendar)
 ~~~
 ~~~ sdparse
-Prvenstvo bo zelo izenačeno ,	saj	lahkega tekmeca tokrat ne bo .
+Prvenstvo bo zelo izenačeno , saj lahkega tekmeca tokrat ne bo .
 conj(izenačeno,bo)
 cc(bo,saj)
 ~~~
