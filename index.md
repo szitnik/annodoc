@@ -304,7 +304,7 @@ conj(izenačeno,bo)
 cc(bo,saj)
 ~~~
 ~~~ sdparse
-Ko si enkrat na vrhu in se poskoduješ , se je težko vrniti.
+Ko si enkrat na vrhu in se poskoduješ , se je težko vrniti .
 conj(si,poškoduješ)
 cc(poškoduješ,in)
 ~~~
