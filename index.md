@@ -221,7 +221,7 @@ case(hranjenju,pri)
 case(filter,kot)
 ~~~
 ~~~ sdparse
-V Slovenski filharmoniji je kot poslovna in programska direktorica izpeljala projekt obnove stavbe
+V Slovenski filharmoniji je kot poslovna direktorica izpeljala projekt obnove
 case(direktorica,kot)
 case(filharmoniji,V)
 ~~~
