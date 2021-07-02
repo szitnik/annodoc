@@ -313,14 +313,17 @@ cc(poškoduješ,in)
 ~~~ sdparse
 Začetek izvajanja programa je odvisen od podpisa sporazuma
 cop(odvisen,je)
+nsubj(odvisen,Začetek)
 ~~~
 ~~~ sdparse
 Rečna jezera mrtvice so stalni spremljevalci Mure 
 cop(spremljevalci,so)
+nsubj(spremljevalci,jezera)
 ~~~
 ~~~ sdparse
 Da , jaz	sem tisti , ki bi moral biti tukaj
 cop(tisti,sem)
+nsubj(tisti,jaz)
 ~~~
 ~~~ sdparse
 Niti prijatelja nista več bila
