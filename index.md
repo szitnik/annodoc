@@ -226,6 +226,23 @@ case(direktorica,kot)
 case(filharmoniji,V)
 ~~~
 
+#### cc
+~~~ sdparse
+mojstrica poslovne komunikacije	in svetovalka
+cc(svetovalka,in)
+~~~
+~~~ sdparse
+Meso je lahko belo , modrikasto ali zelenkasto
+cc(zelenkasto,ali)
+~~~
+~~~ sdparse
+na območju od Kočevske Reke do Pirč oz. Broda na Kolpi
+cc(Broda,oz.)
+~~~
+
+
+
+
 
 
 
