@@ -22,7 +22,7 @@ R1 ITI_V_TRGOVINO Arg1:T1 Arg2:T2
 
 To je zelo specifična povezava, ki vpliva na zelo velijo jezikovnih značilnosti, o katerih se bomo razpisali v nadaljevanju .... 
 
-#### Primeri za acl
+#### acl
 <!--- prilastkovi odvisniki--->
 ~~~ sdparse
 Točno tako je s standardi , ki nastajajo v internetu .
@@ -53,7 +53,7 @@ Ponesrečeno žensko so hudo ranjeno odpeljali v UKC .
 acl(žensko,ranjeno)
 ~~~
 
-#### Primeri za advcl
+#### advcl
 ~~~ sdparse
 Premišljeval je o Jayu in njegovih prijateljih , ko je prečkal temačno parkirišče .
 advcl(Premišljeval,prečkal)
@@ -78,7 +78,7 @@ Ves blaten sem bil ob srečanju s kagujem nenadoma najsrečnejši človek .
 advcl(človek,blaten)
 ~~~
 
-#### Primeri za advmod
+#### advmod
 
 ~~~ sdparse
 pravilno je postavil diagnozo
@@ -126,8 +126,6 @@ advmod(ljubi,prav)
 
 
 
-
-
 ~~~ sdparse
 največji uspeh doslej
 advmod(uspeh,doslej)
@@ -145,3 +143,32 @@ advmod(začetku,takoj)
  vložki iz krp, spletene volne, gobe in celo	trave
 advmod(trave,celo)
 ~~~
+
+#### amod
+~~~ sdparse
+v vrste prostovoljnega gasilskega društva Dolga vas
+amod(društvo,prostovoljnega)
+amod(društvo,gasilskega)
+amod(vas,Dolga)
+~~~
+~~~ sdparse
+astronome zanima nekaj drugega
+amod(nekaj,drugega)
+~~~
+
+
+~~~ sdparse
+Se strinjate s trditvijo, postavljeno v naslovu pesmi ?
+amod(trditvijo,postavljeno)
+~~~
+~~~ sdparse
+Spremeni se v temen vzorec, podoben šahovnici .
+amod(vzorec,podoben)
+~~~
+~~~ sdparse
+nova ladja, velika 1350 kvadratnih metrov
+amod(ladja,velika)
+~~~
+
+
+
