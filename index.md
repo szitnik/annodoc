@@ -203,6 +203,18 @@ Zaradi njegovega polhastega spanja je bila večkrat jezna .
 aux(jezna,je)
 ~~~
 
+#### case
+~~~ sdparse
+Za nekaj pomežikov je verjela , da je v hotelu
+case(pomežikov,Za)
+case(hotelu,v)
+~~~
+~~~ sdparse
+V veliki ponvi segrejemo štiri do pet žlic olja
+case(ponvi,V)
+case(pet,do)
+~~~
+
 
 
 
