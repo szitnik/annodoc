@@ -199,7 +199,7 @@ aux(zagnal,bi)
 aux(zagnal,bil)
 ~~~
 ~~~ sdparse
-Zaradi njegovega polhastega spanja je bila večkrat jezn a.
+Zaradi njegovega polhastega spanja je bila večkrat jezna .
 aux(jezna,je)
 ~~~
 
