@@ -249,8 +249,8 @@ cc(bojijo,A)
 ~~~
 ~~~ sdparse
 Tudi zato s tovrstnim nasiljem ne ravnatelji ne učitelji nimajo izkušenj .
-cc(učitelji,ne-2)
-cc:preconj(ravnatelji,ne-1)
+cc(učitelji,ne-8)
+cc:preconj(ravnatelji,ne-6)
 ~~~
 
 
