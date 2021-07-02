@@ -330,3 +330,15 @@ Niti prijatelja nista več bila
 cop(prijatelja,bila)
 aux(prijatelja,nista)
 ~~~
+
+~~~ sdparse
+kajenje je prepovedano
+cop(prepovedano,je)
+nsubj(prepovedano,kajenje)
+~~~
+~~~ sdparse
+kajenje ji je bilo prepovedano
+cop(prepovedano,bilo)
+aux(prepovedano,je)
+nsubj(prepovedano,kajenje)
+~~~
