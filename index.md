@@ -239,7 +239,10 @@ cc(zelenkasto,ali)
 na območju od Kočevske Reke do Pirč oz. Broda na Kolpi
 cc(Broda,oz.)
 ~~~
-
+~~~ sdparse
+Vprašanje se morda zdi absurdno , vendar je nekaj vzporednic .
+cc(je,vendar)
+~~~
 
 
 
