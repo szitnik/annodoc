@@ -362,3 +362,24 @@ csubj(jasno,mogel)
 ~~~
 
 
+~~~ sdparse
+Podatke iz evidence je mogoče	dobiti samo na podlagi pisne prošnje posameznika .
+csubj(mogoče,dobiti)
+cop(mogoče,je)
+~~~
+~~~ sdparse
+Mislim , da je zares velik dar srečati takega človeka .
+csubj(dar,srečati)
+cop(dar,je)
+~~~
+~~~ sdparse
+Za detektiva bi bil pravi izziv odkriti , kje spi kralj tatov .
+csubj(izziv,odkriti)
+cop(izziv,bil)
+~~~
+~~~ sdparse
+Te modele je treba potem le malenkostno prilagoditi .
+csubj(je,prilagoditi)
+~~~
+
+
