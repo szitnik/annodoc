@@ -293,4 +293,18 @@ punct(ekonomske,-)
 ~~~
 
 
-
+~~~ sdparse
+Kaldenove oči so se jezno zožile , vendar je spregovoril z mirnim glasom.
+conj(zožile,spregovoril)
+cc(spregovoril,vendar)
+~~~
+~~~ sdparse
+Prvenstvo bo zelo izenačeno ,	saj	lahkega tekmeca tokrat ne bo .
+conj(izenačeno,bo)
+cc(bo,saj)
+~~~
+~~~ sdparse
+Ko si enkrat na vrhu in se poskoduješ , se je težko vrniti.
+conj(si,poškoduješ)
+cc(poškoduješ,in)
+~~~
