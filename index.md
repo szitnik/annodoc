@@ -433,3 +433,22 @@ nikoli jih nismo zares razumeli , otrok
 dislocated(razumeli,otrok)
 obj(razumeli,jih)
 ~~~
+
+#### expl
+~~~ sdparse
+Vse so se veselo smejale .
+expl(smejale,se)
+~~~
+~~~ sdparse
+Pogosto se omenja planinski turizem .
+expl(omenja,se)
+~~~
+
+~~~ sdparse
+Celo noč so ga žurali .
+expl(žurali,ga)
+~~~
+~~~ sdparse
+Zagodla jim jo je bolezen .
+expl(Zagodla,jo)
+~~~
