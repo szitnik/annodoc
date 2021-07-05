@@ -504,4 +504,8 @@ flat:foreign(You,Your)
 flat:foreign(You,Life)
 ~~~
 
-
+#### goeswith
+~~~ sdparse
+brez časna knjiga
+goeswith(brez,časna)
+~~~
