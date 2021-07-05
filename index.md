@@ -514,13 +514,16 @@ goeswith(brez,časna)
 ~~~ sdparse
 Otrokoma je hotel zagotoviti lepo prihodnost
 iobj(zagotoviti,Otrokoma)
+obj(zagotoviti, prihodnost)
 ~~~
 ~~~ sdparse
-prosili so me, naj govorim z njim
+prosili so me , naj govorim z njim
 iobj(prosili,me)
+ccomp(prosili,govorim)
 ~~~
 ~~~ sdparse
 razbremeniti sodišče obravnave
 iobj(razbremeniti,sodišče)
+obj(razbremeniti,obravnave)
 ~~~
 
