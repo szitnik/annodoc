@@ -422,3 +422,14 @@ Tebi gre najbrž drugače, rdečečopek ,	kajne ?
 discourse(gre,kajne)
 ~~~
 
+#### dislocated
+~~~ sdparse
+Marko , on se je udeležil vsakega sestanka 
+dislocated(udeležil,Marko)
+nsubj(udeležil,on)
+~~~
+~~~ sdparse
+nikoli jih nismo zares razumeli , otrok 
+dislocated(razumeli,otrok)
+obj(razumeli,jih)
+~~~
