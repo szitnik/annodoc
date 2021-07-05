@@ -466,5 +466,11 @@ fixed(tako,da)
 na Kolpi bo tako imenovana schengenska meja
 fixed(tako,imenovana)
 ~~~
+~~~ sdparse
+kljub temu , da
+fixed(kljub,temu)
+fixed(kljub,da)
+punct(kljub,,)
+~~~
 
 
