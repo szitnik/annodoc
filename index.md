@@ -408,3 +408,17 @@ Ali ima center veliko dela spričo tako hudih medvrstniških obračunavanj ?
 det(dela,veliko)
 ~~~
 
+#### discourse
+~~~ sdparse
+Oh , lepše od te si niste mogli izbrati 
+discourse(mogli,Oh)
+~~~
+~~~ sdparse
+Tam so samo zamahnili z roko,	češ , se bo že vrnila.
+discourse(zamahnili,češ)
+~~~
+~~~ sdparse
+Tebi gre najbrž drugače, rdečečopek ,	kajne ?
+discourse(gre,kajne)
+~~~
+
