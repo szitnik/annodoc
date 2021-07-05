@@ -509,3 +509,18 @@ flat:foreign(You,Life)
 brez časna knjiga
 goeswith(brez,časna)
 ~~~
+
+#### iobj
+~~~ sdparse
+Otrokoma je hotel zagotoviti lepo prihodnost
+iobj(zagotoviti,Otrokoma)
+~~~
+~~~ sdparse
+prosili so me, naj govorim z njim
+iobj(prosili,me)
+~~~
+~~~ sdparse
+razbremeniti sodišče obravnave
+iobj(razbremeniti,sodišče)
+~~~
+
