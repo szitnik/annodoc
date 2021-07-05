@@ -396,3 +396,15 @@ dep(sprejetje,19)
 cop(sprejetje,je)
 nsubj(sprejetje,Institucija)
 ~~~
+
+
+#### det
+~~~ sdparse
+Definitivno je odločitev unije za širitev	naš velik zaveznik .
+det(zaveznik,naš)
+~~~
+~~~ sdparse
+Ali ima center veliko dela spričo tako hudih medvrstniških obračunavanj ?
+det(dela,veliko)
+~~~
+
