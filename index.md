@@ -474,3 +474,17 @@ punct(kljub,,)
 ~~~
 
 
+#### flat
+~~~ sdparse
+Rojena sem bila 5. 10. 1957 
+flat(5.,10.)
+flat(5.,1957)
+~~~
+~~~ sdparse
+Oškodovanka je v torbici nosila dobrih	sto trideset tisoč tolarjev
+flat(sto,trideset)
+flat(sto,tisoč)
+~~~
+
+
+
