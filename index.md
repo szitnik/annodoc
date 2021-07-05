@@ -452,3 +452,19 @@ expl(žurali,ga)
 Zagodla jim jo je bolezen .
 expl(Zagodla,jo)
 ~~~
+
+#### fixed
+~~~ sdparse
+Po več	kot tridesetih letih tega dela
+fixed(več,kot)
+~~~
+~~~ sdparse
+Čisto me je prevzelo, tako da je to opazila tudi Jasna
+fixed(tako,da)
+~~~
+~~~ sdparse
+na Kolpi bo tako imenovana schengenska meja
+fixed(tako,imenovana)
+~~~
+
+
