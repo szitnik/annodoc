@@ -385,4 +385,14 @@ Te modele je treba potem le malenkostno prilagoditi .
 csubj(je,prilagoditi)
 ~~~
 
-
+#### dep
+~~~ sdparse
+Tip menda misl ,	dam	začel mlatit psa s palco .
+dep(začel,dam)
+~~~
+~~~ sdparse
+19 Institucija je za Mary Douglas sprejetje določenega miselnega sloga
+dep(sprejetje,19)
+cop(sprejetje,je)
+nsubj(sprejetje,Institucija)
+~~~
