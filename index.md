@@ -481,10 +481,27 @@ flat(5.,10.)
 flat(5.,1957)
 ~~~
 ~~~ sdparse
-Oškodovanka je v torbici nosila dobrih	sto trideset tisoč tolarjev
+Oškodovanka je v torbici nosila dobrih sto trideset tisoč tolarjev
 flat(sto,trideset)
 flat(sto,tisoč)
 ~~~
 
+~~~ sdparse
+Vladimir Putin
+flat:name(Vladimir,Putin)
+~~~
+~~~ sdparse
+Manca Šetina Miklič
+flat:name(Manca,Šetina)
+flat:name(Manca,Miklič)
+~~~
+
+~~~ sdparse
+v svoji uspešnici You Can Heal Your Life
+flat:foreign(You,Can)
+flat:foreign(You,Heal)
+flat:foreign(You,Your)
+flat:foreign(You,Life)
+~~~
 
 
