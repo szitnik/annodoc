@@ -546,14 +546,25 @@ Ko si enkrat na vrhu , se je težko vrniti.
 mark(si,Ko)
 ~~~
 ~~~ sdparse
+Honorar , ki ga bo prejela , naj bi imel sedem številk. 
+mark(prejela,ki)
+~~~
+~~~ sdparse
 Razmislite , ali je ta beseda ustrezna za naslov romana.
 mark(ustrezna,ali)
 cop(ustrezna,je)
 ~~~
+
+
+
 ~~~ sdparse
-Tako nam ni preostalo drugega ,	kot da smo pustili nepopito pijačo in odšli .
+Tako nam ni preostalo drugega , kot da smo pustili nepopito pijačo in odšli .
 fixed(kot,da)
 mark(pustili,kot)
 ~~~
-
+~~~ sdparse
+Upam , da turistični delavci , medtem ko bodo širili Pohorje , ne bodo pozabili na to
+fixed(medtem,ko)
+mark(širili,medtem)
+~~~
 
