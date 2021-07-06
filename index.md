@@ -568,3 +568,40 @@ fixed(medtem,ko)
 mark(širili,medtem)
 ~~~
 
+#### nmod
+~~~ sdparse
+prava poplava patentov za zdravila
+nmod(poplava,patentov)
+nmod(patentov,zdravila)
+case(zdravila,za)
+~~~
+~~~ sdparse
+nevšečnosti na televiziji BBC
+nmod(nevšečnosti,televiziji)
+case(telviziji,na)
+nmod(televiziji,BBC)
+~~~
+~~~ sdparse
+ v svoji uspešnici You Can Heal Your Life 
+nmod(uspešnici,You)
+~~~
+~~~ sdparse
+prilagajanje evropskim merilom
+nmod(prilagajanje,merilom)
+~~~
+~~~ sdparse
+v državah članicah EU
+nmod(državah,članicah)
+nmod(članicah,EU)
+~~~
+~~~ sdparse
+Poraženci za kaj takega nimajo časa .
+nmod(kaj,takega)
+~~~
+~~~ sdparse
+eden od ciljev je državno prvenstvo
+nmod(eden,ciljev)
+case(ciljev,od)
+~~~
+
+
