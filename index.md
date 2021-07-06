@@ -535,4 +535,25 @@ list(Branko,e-pošta)
 appos(telefon,041)
 appos(e-pošta,kz.vipava@siol.net)
 flat:name(Branko,Tomažič)
+flat(041,707)
+flat(041534)
 ~~~
+
+
+#### mark
+~~~ sdparse
+Ko si enkrat na vrhu , se je težko vrniti.
+mark(si,Ko)
+~~~
+~~~ sdparse
+Razmislite , ali je ta beseda ustrezna za naslov romana.
+mark(ustrezna,ali)
+cop(ustrezna,je)
+~~~
+~~~ sdparse
+Tako nam ni preostalo drugega ,	kot da smo pustili nepopito pijačo in odšli .
+fixed(kot,da)
+mark(pustili,kot)
+~~~
+
+
