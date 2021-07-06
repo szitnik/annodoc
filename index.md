@@ -536,7 +536,7 @@ appos(telefon,041)
 appos(e-pošta,kz.vipava@siol.net)
 flat:name(Branko,Tomažič)
 flat(041,707)
-flat(041534)
+flat(041,534)
 ~~~
 
 
