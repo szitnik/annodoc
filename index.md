@@ -732,3 +732,30 @@ nsubj(učitelj,Župančič)
 ~~~
 
 
+#### obl
+~~~ sdparse
+medtem pa se bodo pogovorili z razredom
+obl(pogovorili,razredom)
+case(razredom,z)
+~~~
+~~~ sdparse
+Billovo vozilo je stalo na parkirišču pred bolnišnico.
+obl(stalo,parkirišču)
+case(parkirišču,na)
+~~~
+~~~ sdparse
+slikarstvo je sicer res vezano na besedilno predlogo
+obl(vezano,predlogo)
+case(predlogo,na)
+cop(vezano,je)
+~~~
+~~~ sdparse
+Čudil se je, da niso sezidane iz lesa ali bambusa.
+obl(sezidane,lesa)
+case(lesa,iz)
+cop(sezidane,niso)
+~~~
+
+
+
+
