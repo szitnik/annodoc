@@ -644,4 +644,22 @@ Genska tehnologija pa je šla v tem smislu še korak dlje .
 nmod(dlje,korak)
 ~~~
 
+#### nsubj
+~~~ sdparse
+Kava povečuje izločanje želodčnega soka
+nsubj(povečuje,Kava)
+~~~
+~~~ sdparse
+Poleg tega je pa zadeva lahko tudi ustavno sporna.
+nsubj(zadeva,sporna)
+cop(sporna,je)
+~~~
+~~~ sdparse
+Zato tudi ne manjka odzivov nanjo
+nsubj(manjka,odzivov)
+~~~
+~~~ sdparse
+prek pobočnice poteka 15 ozkih valovitih	prog 
+nsubj(poteka,prog)
+~~~
 
