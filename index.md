@@ -694,3 +694,23 @@ nummod(številka,pet)
 v letu 2002 
 nummod(letu,2002)
 ~~~
+
+#### obj
+~~~ sdparse
+Andreja Burin pa je dobila posebno pohvalo
+obj(dobila,pohvalo)
+~~~
+~~~ sdparse
+Neznosna teža nahrbtnika me je vlekla v globino.
+obj(vlekla,me)
+~~~
+~~~ sdparse
+Trojka ni upoštevala opozorila poročevalca Specialeja
+obj(upoštevala,opozorila)
+~~~
+~~~ sdparse
+Suho listje jima je šelestelo pod čevlji,
+obj(šelestelo,jima)
+~~~
+
+
