@@ -578,7 +578,7 @@ case(zdravila,za)
 ~~~ sdparse
 nevšečnosti na televiziji BBC
 nmod(nevšečnosti,televiziji)
-case(telviziji,na)
+case(televiziji,na)
 nmod(televiziji,BBC)
 ~~~
 ~~~ sdparse
