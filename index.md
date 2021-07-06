@@ -713,4 +713,22 @@ Suho listje jima je šelestelo pod čevlji,
 obj(šelestelo,jima)
 ~~~
 
+~~~ sdparse
+Mladi gasilci so prav željni vaj .
+obj(željni,vaj)
+cop(željni,so)
+nsubj(željni,gasilci)
+~~~
+~~~ sdparse
+K sreči niste zapisani samo šahu .
+obj(zapisani,šahu)
+cop(zapisani,niste)
+~~~
+~~~ sdparse
+Župančič je bil domači učitelj	grofiču Manfredu Attemsu
+obj(učitelj,grofiču)
+cop(učitelj,bil)
+nsubj(učitelj,Župančič)
+~~~
+
 
