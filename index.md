@@ -650,7 +650,7 @@ Kava povečuje izločanje želodčnega soka
 nsubj(povečuje,Kava)
 ~~~
 ~~~ sdparse
-Poleg tega je pa zadeva lahko tudi ustavno sporna.
+Poleg tega je pa zadeva lahko tudi ustavno sporna .
 nsubj(zadeva,sporna)
 cop(sporna,je)
 ~~~
