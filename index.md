@@ -527,3 +527,12 @@ iobj(razbremeniti,sodišče)
 obj(razbremeniti,obravnave)
 ~~~
 
+#### list
+~~~ sdparse
+Branko Tomažič , telefon : 041 707 534 , e-pošta : kz.vipava@siol.net .
+list(Branko,telefon)
+list(Branko,e-pošta)
+appos(telefon,041)
+appos(e-pošta,kz.vipava@siol.net)
+flat:name(Branko,Tomažič)
+~~~
