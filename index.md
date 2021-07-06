@@ -672,6 +672,8 @@ nummod(leti,desetimi)
 študentki 3. letnika Akademije za glasbo
 nummod(letnika,3.)
 ~~~
+
+
 ~~~ sdparse
 pet tisoč tristo metrov
 nummod(metrov,pet)
@@ -684,3 +686,11 @@ nummod(milijonov,550)
 nmod(milijonov,tolarjev)
 ~~~
 
+~~~ sdparse
+Zemljanka številka pet 
+nummod(številka,pet)
+~~~
+~~~ sdparse
+v letu 2002 
+nummod(letu,2002)
+~~~
