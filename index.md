@@ -663,3 +663,24 @@ prek pobočnice poteka 15 ozkih valovitih	prog
 nsubj(poteka,prog)
 ~~~
 
+#### nummod
+~~~ sdparse
+pred desetimi leti
+nummod(leti,desetimi)
+~~~
+~~~ sdparse
+študentki 3. letnika Akademije za glasbo
+nummod(letnika,3.)
+~~~
+~~~ sdparse
+pet tisoč tristo metrov
+nummod(metrov,pet)
+flat(pet,tisoč)
+flat(pet,tristo)
+~~~
+~~~ sdparse
+Lani so ustvarili 550 milijonov tolarjev prometa .
+nummod(milijonov,550)
+nmod(milijonov,tolarjev)
+~~~
+
