@@ -589,11 +589,7 @@ nmod(uspešnici,You)
 prilagajanje evropskim merilom
 nmod(prilagajanje,merilom)
 ~~~
-~~~ sdparse
-v državah članicah EU
-nmod(državah,članicah)
-nmod(članicah,EU)
-~~~
+
 ~~~ sdparse
 Poraženci za kaj takega nimajo časa .
 nmod(kaj,takega)
@@ -604,4 +600,18 @@ nmod(eden,ciljev)
 case(ciljev,od)
 ~~~
 
+
+~~~ sdparse
+v državah članicah EU
+nmod(državah,članicah)
+nmod(članicah,EU)
+~~~
+~~~ sdparse
+Mariborčan Iztok Božič
+nmod(Mariborčan,Iztok)
+~~~
+~~~ sdparse
+Harrisonov prijatelj Michael Palin
+nmod(prijatelj,Michael)
+~~~
 
