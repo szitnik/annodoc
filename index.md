@@ -756,6 +756,26 @@ case(lesa,iz)
 cop(sezidane,niso)
 ~~~
 
+#### obl
+~~~ sdparse
+Evropska komisija vsako jesen objavlja letno poročilo
+obl(objavlja,jesen)
+~~~
+~~~ sdparse
+učinki pa so znani že več stoletij
+obl(znani,stoletij)
+cop(znani,so)
+~~~
+~~~ sdparse
+Odprava napake naj bi stala 64 milijonov mark
+obl(stala,milijonov)
+~~~
+~~~ sdparse
+Poslušalci so bili v povprečju stari štiriindvajset let
+obl(stari,let)
+~~~
+
+
 
 
 
