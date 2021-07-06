@@ -615,3 +615,33 @@ Harrisonov prijatelj Michael Palin
 nmod(prijatelj,Michael)
 ~~~
 
+
+
+~~~ sdparse
+ta na pogled prostodušna opazka
+nmod(prostodušna,pogled)
+case(pogled,na)
+amod(opazka,prostodušna)
+~~~
+~~~ sdparse
+v niz razporejene slabotne zobce
+nmod(razporejene,niz)
+case(niz,v)
+amod(zobce,razporejene)
+~~~
+~~~ sdparse
+773 metrov visok vrh 
+nmod(visok,metrov)
+amod(vrh,visok)
+~~~
+
+~~~ sdparse
+na plenarnem zasedanju leto kasneje 
+nmod(kasneje,leto)
+~~~
+~~~ sdparse
+Genska tehnologija pa je šla v tem smislu še korak dlje .
+nmod(dlje,korak)
+~~~
+
+
