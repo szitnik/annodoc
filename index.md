@@ -709,7 +709,7 @@ Trojka ni upoštevala opozorila poročevalca Specialeja
 obj(upoštevala,opozorila)
 ~~~
 ~~~ sdparse
-Suho listje jima je šelestelo pod čevlji,
+Suho listje jima je šelestelo pod čevlji
 obj(šelestelo,jima)
 ~~~
 
