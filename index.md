@@ -857,5 +857,27 @@ parataxis(samevala,izkoristil)
 obj(izkoristil,kar)
 ~~~
 
- 
+~~~ sdparse
+Glavni žrtvi bova , kaže , prav midva .
+parataxis(žrtvi,kaže)
+cop(žrtvi,bova)
+~~~
+
+~~~ sdparse
+Takole se je glasil : » Ali mora kmet res vedno le ubogati ? «
+parataxis(glasil,mora)
+~~~
+~~~ sdparse
+» To je Victor , « je pojasnil Victor Riccio .
+parataxis(Victor-4,pojasnil)
+cop(Victor-4,je)
+~~~
+~~~ sdparse
+» Nimam časa , « sem butasto bleknila , » ker moram na postajo .
+parataxis(bleknila,Nimam)
+advcl(Nimam,moram)
+~~~
+
+
+
 
