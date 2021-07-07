@@ -808,7 +808,17 @@ obl(pogostejše,strah)
 case(strah,kot)
 cop(čustvo,je)
 ~~~
- 
+
+#### orphan
+~~~ sdparse
+No , H. ni prevzel od Anglosasov ničesar , pač pa Anglosasi nekaj od H.
+conj(prevzel,Anglosasi)
+cc(Anglosasi,pač)
+fixed(pač,pa)
+orphan(Anglosasi,nekaj)
+orphan(Anglosasi,H.-15)
+case(H.-15, od)
+~~~
 
 
 
