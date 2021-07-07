@@ -921,3 +921,17 @@ advmod(manjši,čim)
 reparandum(ti,te)
 det(stroški,ti)
 ~~~
+
+#### root
+~~~ sdparse
+ROOT Lastnika je oškodoval za 30 tisočakov .
+root(ROOT,oškodoval)
+~~~
+~~~ sdparse
+ROOT To je bilo značilno za pokrajine daleč od morja .
+root(ROOT,značilno)
+cop(značilno,bilo)
+nsubj(značilno,To)
+~~~
+
+
