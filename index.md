@@ -839,14 +839,15 @@ parataxis(odide,pride)
 advmod(pride,pa)
 ~~~
 ~~~ sdparse
-Prišel , videl , zmagal.
+Prišel , videl , zmagal .
 parataxis(Prišel,videl)
 parataxis(Prišel,zmagal)
 ~~~
 ~~~ sdparse
-Ona ve, da je to moj stil življenja	, da to potrebujem.
+Ona ve, da je to moj stil življenja	, da to potrebujem .
 parataxis(stil,potrebujem)
 cop(stil,je)
+ccomp(ve,stil)
 ~~~
 
 
