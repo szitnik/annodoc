@@ -1103,9 +1103,8 @@ obl(Spal,dojenček)
 case(dojenček,kot)
 ~~~
 ~~~ sdparse
-kot odrasli so prvorojenci izredno ustvarjalni
-obl(ustvarjalni,odrasli)
+kot odrasli prvorojenci potrebujejo manj spodbude
+obl(potrebujejo,odrasli)
 case(odrasli,kot)
-cop(ustvarjalni,so)
 ~~~
 
