@@ -1117,6 +1117,6 @@ case(dela,od)
 ~~~ sdparse
 Jeza je pri otrocih pogostejše čustvo kot strah .
 obl(pogostejše,strah)
+amod(čustvo,pogostejše)
 case(strah,kot)
-cop(čustvo,je)
 ~~~
