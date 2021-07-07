@@ -1071,7 +1071,30 @@ advmod(lego,tudi)
 orphan(lego,znova)
 ~~~
 
+#### T: primerjave
+~~~ sdparse
+Spal je , kot da se ni nič zgodilo .
+advcl(Spal,zgodilo)
+mark(zgodilo,kot)
+fixed(kot,da)
+~~~
 
-
+~~~ sdparse
+Njun razhod je bil grši , kot je pričakovala.
+advcl(grši,pričakovala)
+mark(pričakovala,kot)
+~~~
+~~~ sdparse
+Toledo V5 skriva svojih 170 konjskih moči za enako zunanjostjo , kot jo imajo šibkejše različice
+advcl(enako,imajo)
+mark(imajo,kot)
+~~~
+~~~ sdparse
+Prvorojenca se kot partnerja razumeta bolje , kot če bi bil eden od njiju edinec .
+cop(edinec,bil)
+advcl(bolje,edinec)
+mark(edinec,kot)
+fixed(kot,če)
+~~~
 
 
