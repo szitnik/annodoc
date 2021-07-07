@@ -1016,7 +1016,7 @@ ccomp(vem,kdaj)
 
 ~~~ sdparse
 Odšli so , nekateri za zmeraj .
-parataxis(Odšlo,nekateri)
+parataxis(Odšli,nekateri)
 orphan(nekateri,zmeraj)
 case(zmeraj,za)
 ~~~
