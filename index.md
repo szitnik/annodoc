@@ -1041,6 +1041,15 @@ nmod(plat,življenja)
 
 
 ~~~ sdparse
+Odprtina se poveča najpozneje takrat , pogosto pa že prej .
+parataxis(poveča,pogosto)
+orphan(pogosto,pa)
+orphan(pogosto,prej)
+orphan(pogosto,že)
+~~~
+
+
+~~~ sdparse
 je bilo treba razložiti sistem dogajanja in geografsko lego Slovenije
 obj(razložiti,sistem)
 conj(sistem,lego)
@@ -1062,13 +1071,7 @@ advmod(lego,tudi)
 orphan(lego,znova)
 ~~~
 
-~~~ sdparse
-Odprtina se poveča najpozneje takrat , pogosto pa že prej .
-parataxis(poveča,pogosto)
-orphan(pogosto,pa)
-orphan(pogosto,prej)
-orphan(pogosto,že)
-~~~
+
 
 
 
