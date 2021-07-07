@@ -938,3 +938,15 @@ nsubj(značilno,To)
 ROOT Večno hvaležni udeleženci prometa v Ljubljani !
 root(ROOT,udeleženci)
 ~~~
+
+#### vocative
+~~~ sdparse
+Tebi gre najbrž drugače , rdečečopek, kajne ?
+vocative(gre,rdečečopek)
+~~~
+~~~ sdparse
+Kako s kej , Nelly ?
+vocative(s,Nelly)
+~~~
+
+
