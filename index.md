@@ -1108,3 +1108,15 @@ obl(potrebujejo,odrasli)
 case(odrasli,kot)
 ~~~
 
+~~~ sdparse
+Dimenzije okvirjev so večje od vzorčnega dela šablone .
+obl(večje,dela)
+cop(večje,so)
+case(dela,od)
+~~~
+~~~ sdparse
+Jeza je pri otrocih pogostejše čustvo kot strah .
+obl(pogostejše,strah)
+case(strah,kot)
+cop(čustvo,je)
+~~~
