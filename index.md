@@ -878,6 +878,9 @@ parataxis(bleknila,Nimam)
 advcl(Nimam,moram)
 ~~~
 
-
+~~~ sdparse
+Postojna - Z nedeljskim mitingom so se končali Dnevi vojske
+parataxis(končali,Postojna)
+~~~
 
 
