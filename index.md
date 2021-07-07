@@ -776,6 +776,42 @@ obl(stari,let)
 ~~~
 
 
+~~~ sdparse
+Najraje bi sam poklical Kyla Craiga
+obl(poklical,sam)
+~~~
+~~~ sdparse
+Nekatere slike so visele same zase
+obl(visele,same)
+~~~
+
+
+~~~ sdparse
+kot prva drsalka je nastopila v filmih
+obl(nastopila,drsalka)
+case(drsalka,kot)
+~~~
+~~~ sdparse
+konflikt razume kot spopad
+obl(razume,spopad)
+case(spopad,kot)
+~~~
+~~~ sdparse
+Dimenzije okvirjev so večje od vzorčnega dela šablone .
+obl(večje,dela)
+cop(večje,so)
+case(dela,od)
+~~~
+~~~ sdparse
+Jeza je pri otrocih pogostejše čustvo kot strah .
+obl(pogostejše,strah)
+case(strah,kot)
+cop(čustvo,je)
+~~~
+ 
+
+
+
 
 
 
