@@ -828,8 +828,8 @@ cop(pozitivni,Bodite)
 ~~~
 ~~~ sdparse
 Cena ne bo ravno visoka , predvidoma bo treba za hrano in bivanje plačevati po 500 SIT na dan .
-parataxis(visoka,bo)
-cop(visoka,bo)
+parataxis(visoka,bo-8)
+cop(visoka,bo-3)
 ~~~
 
 
@@ -844,7 +844,7 @@ parataxis(Prišel,videl)
 parataxis(Prišel,zmagal)
 ~~~
 ~~~ sdparse
-Ona ve, da je to moj stil življenja	, /Root/punct/potrebovati da /Conj/mark/potrebovati	to potrebujem.
+Ona ve, da je to moj stil življenja	, da to potrebujem.
 parataxis(stil,potrebujem)
 cop(stil,je)
 ~~~
