@@ -991,6 +991,11 @@ xcomp(spoznalo,krivega)
 case(krivega,za)
 ~~~
 
-
-
+#### T: elipse
+~~~ sdparse
+Sebi je kupila rdeč klobuk, meni pa je podarila zelenega.
+obj(kupila,klobuk)
+amod(klobuk,rdeč)
+obj(podarila,zelenega)
+~~~
 
