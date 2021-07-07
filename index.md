@@ -820,6 +820,24 @@ orphan(Anglosasi,H.-15)
 case(H.-15, od-14)
 ~~~
 
+#### parataxis
+~~~ sdparse
+Svetujemo : Bodite pozitivni do sebe in svoje okolice .
+parataxis(Svetujemo,pozitivni)
+cop(pozitivni,Bodite)
+~~~
+~~~ sdparse
+Cena ne bo ravno visoka , predvidoma bo treba za hrano in bivanje plačevati po 500 SIT na dan .
+parataxis(visoka,bo)
+cop(visoka,bo)
+~~~
+
+
+~~~ sdparse
+Nekaj ljudi iz te bolnišnice odide drugam , nekaj pa jih pride iz drugih .
+parataxis(odide,pride)
+advmod(pride,pa)
+~~~
 
 
 
