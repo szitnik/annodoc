@@ -1097,4 +1097,15 @@ mark(edinec,kot-8)
 fixed(kot-8,če)
 ~~~
 
+~~~ sdparse
+Spal je kot dojenček .
+obl(Spal,dojenček)
+case(dojenček,kot)
+~~~
+~~~ sdparse
+kot odrasli so prvorojenci izredno ustvarjalni
+obl(ustvarjalni,odrasli)
+case(odrasli,kot)
+cop(ustvarjalni,so)
+~~~
 
