@@ -817,7 +817,7 @@ cc(Anglosasi,pač)
 fixed(pač,pa)
 orphan(Anglosasi,nekaj)
 orphan(Anglosasi,H.-15)
-case(H.-15, od)
+case(H.-15, od-14)
 ~~~
 
 
