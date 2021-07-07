@@ -914,6 +914,10 @@ punct(toksičnost,))
 #### reparandum
 ~~~ sdparse
 da so te eee ti stroški čim manjši
+mark(manjši,da)
+cop(manjši,so)
+nsubj(manjši,stroški)
+advmod(manjši,čim)
 reparandum(ti,te)
-det(amod,ti)
+det(stroški,ti)
 ~~~
