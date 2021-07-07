@@ -1080,7 +1080,7 @@ fixed(kot,da)
 ~~~
 
 ~~~ sdparse
-Njun razhod je bil grši , kot je pričakovala.
+Njun razhod je bil grši , kot je pričakovala .
 advcl(grši,pričakovala)
 mark(pričakovala,kot)
 ~~~
