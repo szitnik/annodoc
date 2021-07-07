@@ -972,3 +972,25 @@ xcomp(prišel,pogledat)
 ~~~
 
 
+~~~ sdparse
+Voda ostaja najboljši dodatek za gnojevko . 
+xcomp(ostaja,dodatek)
+~~~
+~~~ sdparse
+Potem je svet postal lepši . 
+xcomp(postal,lepši)
+~~~
+~~~ sdparse
+Velja za najpomembnejšo špansko blagovno znamko luksuznih izdelkov .
+xcomp(Velja,znamko)
+case(znamko,za)
+~~~
+~~~ sdparse
+Sodišče je lucijskega podjetnika spoznalo za krivega .
+xcomp(spoznalo,krivega)
+case(krivega,za)
+~~~
+
+
+
+
