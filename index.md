@@ -1093,8 +1093,8 @@ mark(imajo,kot)
 Prvorojenca se kot partnerja razumeta bolje , kot če bi bil eden od njiju edinec .
 cop(edinec,bil)
 advcl(bolje,edinec)
-mark(edinec,kot)
-fixed(kot,če)
+mark(edinec,kot-8)
+fixed(kot-8,če)
 ~~~
 
 
