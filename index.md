@@ -949,4 +949,26 @@ Kako s kej , Nelly ?
 vocative(s,Nelly)
 ~~~
 
+#### xcomp
+~~~ sdparse
+Za delovno mesto stažista je moral izpolnjevati dva pogoja .
+xcomp(moral,izpolnjevati)
+~~~
+~~~ sdparse
+Tam se je dalo kaj naučiti
+xcomp(dalo,naučiti)
+~~~
+~~~ sdparse
+Avgust je skušal uvesti dedno pravico do prestola
+xcomp(skušal,uvesti)
+~~~
+~~~ sdparse
+Čilsko sodišče mu je sklenilo odvzeti imuniteto
+xcomp(sklenilo,odvzeti)
+~~~
+~~~ sdparse
+Johnnyja Younga , ki si je prišel pogledat bazar
+xcomp(prišel,pogledat)
+~~~
+
 
