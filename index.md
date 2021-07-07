@@ -838,6 +838,17 @@ Nekaj ljudi iz te bolnišnice odide drugam , nekaj pa jih pride iz drugih .
 parataxis(odide,pride)
 advmod(pride,pa)
 ~~~
+~~~ sdparse
+Prišel , videl , zmagal.
+parataxis(Prišel,videl)
+parataxis(Prišel,zmagal)
+~~~
+~~~ sdparse
+Ona ve, da je to moj stil življenja	, /Root/punct/potrebovati da /Conj/mark/potrebovati	to potrebujem.
+parataxis(stil,potrebujem)
+cop(stil,je)
+~~~
+
 
 
 
