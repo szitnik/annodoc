@@ -902,7 +902,7 @@ punct(fundacija,.)
 cop(fundacija,je)
 ~~~
 ~~~ sdparse
-so ugotovili še citotoksičnost (toksičnost za zdrave celice) in protitumorno delovanje
+so ugotovili še citotoksičnost ( toksičnost za zdrave celice ) in protitumorno delovanje
 appos(citotoksičnost,toksičnost)
 punct(toksičnost,()
 punct(toksičnost,))
