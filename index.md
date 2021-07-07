@@ -934,4 +934,7 @@ cop(značilno,bilo)
 nsubj(značilno,To)
 ~~~
 
-
+~~~ sdparse
+ROOT Večno hvaležni udeleženci prometa v Ljubljani !
+root(ROOT,udeleženci)
+~~~
