@@ -910,3 +910,10 @@ punct(toksičnost,()
 punct(toksičnost,))
 ~~~
 
+
+#### reparandum
+~~~ sdparse
+da so te eee ti stroški čim manjši
+reparandum(ti,te)
+det(amod,ti)
+~~~
