@@ -884,3 +884,27 @@ parataxis(končali,Postojna)
 ~~~
 
 
+
+#### punct
+~~~ sdparse
+noben analgetik ne bo odpravil vozličkov , zaprtja in blokade tega območja 
+conj(vozličkov,zaprtja)
+conj(vozličkov,blokade)
+punct(zaprtja,,)
+cc(blokade,in)
+~~~
+~~~ sdparse
+Da , to je fundacija , ki je bila ustanovljena v Ameriki . 
+punct(Da,,)
+punct(ustanovljena,,-6)
+cop(ustanovljena,bila)
+punct(fundacija,.)
+cop(fundacija,je)
+~~~
+~~~ sdparse
+so ugotovili še citotoksičnost (toksičnost za zdrave celice) in protitumorno delovanje
+appos(citotoksičnost,toksičnost)
+punct(toksičnost,()
+punct(toksičnost,))
+~~~
+
