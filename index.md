@@ -993,9 +993,24 @@ case(krivega,za)
 
 #### T: elipse
 ~~~ sdparse
-Sebi je kupila rdeč klobuk, meni pa je podarila zelenega.
+Sebi je kupila rdeč klobuk , meni pa je podarila zelenega.
 obj(kupila,klobuk)
 amod(klobuk,rdeč)
 obj(podarila,zelenega)
 ~~~
+
+
+~~~ sdparse
+Kupila sem jabolka in tudi Peter jih je .
+conj(Kupila,je)
+cc(je,in)
+advmod(je,tudi)
+nsubj(je,Peter)
+obj(je,jih)
+~~~
+~~~ sdparse
+Ne vem , kdaj .
+ccomp(vem,kdaj)
+~~~
+
 
