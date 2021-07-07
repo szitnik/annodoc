@@ -941,7 +941,7 @@ root(ROOT,udeleženci)
 
 #### vocative
 ~~~ sdparse
-Tebi gre najbrž drugače , rdečečopek, kajne ?
+Tebi gre najbrž drugače , rdečečopek , kajne ?
 vocative(gre,rdečečopek)
 ~~~
 ~~~ sdparse
