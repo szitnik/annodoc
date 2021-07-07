@@ -896,6 +896,8 @@ cc(blokade,in)
 ~~~ sdparse
 Da , to je fundacija , ki je bila ustanovljena v Ameriki . 
 punct(Da,,)
+discourse(fundacija,Da)
+acl(fundacija,ustanovljena)
 punct(ustanovljena,,-6)
 cop(ustanovljena,bila)
 punct(fundacija,.)
