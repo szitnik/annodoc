@@ -1062,6 +1062,13 @@ advmod(lego,tudi)
 orphan(lego,znova)
 ~~~
 
+~~~ sdparse
+Odprtina se poveča najpozneje takrat , pogosto pa že prej .
+parataxis(poveča,pogosto)
+orphan(pogosto,pa)
+orphan(pogosto,prej)
+orphan(pogosto,že)
+~~~
 
 
 
