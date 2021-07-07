@@ -1014,3 +1014,54 @@ ccomp(vem,kdaj)
 ~~~
 
 
+~~~ sdparse
+Odšli so , nekateri za zmeraj .
+parataxis(Odšlo,nekateri)
+orphan(nekateri,zmeraj)
+case(zmeraj,za)
+~~~
+~~~ sdparse
+No , H. ni prevzel od Anglosasov ničesar , pač pa Anglosasi nekaj od H.
+conj(prevzel,Anglosasi)
+cc(Anglosasi,pač)
+fixed(pač,pa)
+orphan(Anglosasi,nekaj)
+orphan(Anglosasi,H.-15)
+case(H.-15, od-14)
+~~~
+~~~ sdparse
+Leva zanima predvsem telesna , Vodnarja pa duhovna plat življenja .
+nsubj(zanima,telesna)
+parataxis(zanima,plat)
+orphan(plat,Vodnarja)
+orphan(plat,pa)
+amod(plat,duhovna)
+nmod(plat,življenja)
+~~~
+
+
+~~~ sdparse
+je bilo treba razložiti sistem dogajanja in geografsko lego Slovenije
+obj(razložiti,sistem)
+conj(sistem,lego)
+cc(lego,in)
+~~~
+~~~ sdparse
+je bilo treba razložiti sistem dogajanja in tudi geografsko lego Slovenije
+obj(razložiti,sistem)
+conj(sistem,lego)
+cc(lego,in)
+advmod(lego,tudi)
+~~~
+~~~ sdparse
+je bilo treba razložiti sistem dogajanja in znova tudi geografsko lego Slovenije
+obj(razložiti,sistem)
+conj(razložiti,lego)
+cc(lego,in)
+advmod(lego,tudi)
+orphan(lego,znova)
+~~~
+
+
+
+
