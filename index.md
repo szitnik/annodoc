@@ -1427,4 +1427,22 @@ nmod(sprejemanje,odgovornosti)
 obj(spodbuda,nam)
 ~~~
 
+#### T: navidezni odvisniki
+~~~ sdparse
+Izkoristite ga sebi v prid , namesto da bi se nesmiselno borili proti lastnemu telesu .
+advcl(Izkoristite,borili)
+mark(borili,namesto)
+fixed(namesto,da)
+~~~
+~~~ sdparse
+Če se prav spominjam , je kot opravičilo navajal prezaposlenost .
+advcl(navajal,spominjam)
+mark(spominjam,Če)
+~~~
+~~~ sdparse
+Kolikor vem , pa imajo tudi v EU še vedno težave z mikročipi .
+advcl(imajo,vem)
+mark(vem,Kolikor)
+~~~
+
 
