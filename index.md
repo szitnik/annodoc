@@ -1445,4 +1445,16 @@ advcl(imajo,vem)
 mark(vem,Kolikor)
 ~~~
 
-
+~~~ sdparse
+Konec tedna je blagovnica v Cerknici samevala , kar je izkoristil nepridiprav iz bližnje okolice . 
+parataxis(samevala,izkoristil)
+obj(izkoristil,kar)
+~~~
+~~~ sdparse
+Pri lastninjenju prihaja do številnih zlorab ,	pri čemer je presenetljivo, da pravosodje ne reagira
+parataxis(prihaja,presenetljivo)
+cop(presenetljivo,je)
+case(čemer,pri)
+obl(presenetljivo,čemer)
+~~~
+ 
