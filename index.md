@@ -1179,3 +1179,14 @@ amod(filmih,dokumentarnih)
 case(filmih,pri)
 ~~~
 
+#### T: besedilni povezovalci
+~~~ sdparse
+Bo se je nasmehnil in postavil v držo.
+conj(nasmehnil,postavil)
+cc(postavil,in)
+~~~
+~~~ sdparse
+Saj samo spiš !
+cc(spiš,Saj)
+~~~
+
