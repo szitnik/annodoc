@@ -1290,7 +1290,7 @@ obj(graditi,objektov)
 ko so avstrijske oblasti dovolile zaradi romana P razpuščeni Matici spet delati
 xcomp(dovolile,delati)
 nsubj(dovolile,oblasti)
-iobj(dovolile,Matici)
+obj(dovolile,Matici)
 obl(dovolile,romana)
 advmod(delati,spet)
 
