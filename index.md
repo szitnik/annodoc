@@ -1488,4 +1488,26 @@ fixed(Zdaj,ko)
 mark(ni,Zdaj)
 ~~~
 
+#### T: modificirani vezniki
+~~~ sdparse
+Šele ko je zagotovljena solventnost , je ostanek kapital .
+fixed(Šele,ko)
+mark(zagotovljena,Šele)
+cop(zagotovljena,je)
+~~~
+
+~~~ sdparse
+Mladina se zdaj trumoma pojavlja na vratih mladega duhovnika , še posebno odkar ve, da obožuje tudi Metallico .
+mark(ve,odkar)
+advmod(ve,še)
+fixed(še,posebno)
+advcl(pojavlja,ve)
+~~~
+~~~ sdparse
+zakaj ne bi v hrani uživali	, tudi če se ne bašemo s čisto vsem
+mark(bašemo,če)
+advmod(bašemo,tudi)
+advcl(uživali,bašemo)
+~~~
+
 
