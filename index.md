@@ -1568,7 +1568,7 @@ conj(krp,trave)
 cc(trave,in)
 ~~~
 
-#### T: razdriženi količinski izrazi
+#### T: razdruženi količinski izrazi
 ~~~ sdparse
 Največ se jih je izselilo v Argentino .
 obl(izselilo,Največ)
@@ -1579,4 +1579,53 @@ teh je skupaj 14
 obl(je,14)
 nsubj(je,teh)
 ~~~
+
+#### T: vprašalnice
+~~~ sdparse
+S testiranjem vnetja lahko določimo , komu preti srčni napad .
+obj(preti,komu)
+ccomp(določimo,preti)
+~~~
+~~~ sdparse
+Belokranjce precej skrbi , kaj se bo zgodilo .
+nsubj(zgodilo,kaj)
+ccomp(skrbi,zgodilo)
+~~~
+~~~ sdparse
+Sprva nisem vedela , kako vse skupaj deluje .
+advmod(deluje,kako)
+ccomp(vedela,deluje)
+~~~
+~~~ sdparse
+Zamislite si položaj , v katerem si želite nastopiti mirno in sproščeno .
+obl(želite,katerem)
+case(katerem,v)
+acl(položaj,želite)
+~~~
+~~~ sdparse
+Vprašajte jo , kateri konji prihajajo na dirkališče .
+det(konji,kateri)
+nsubj(prihajajo,konji)
+ccomp(Vprašajte,prihajajo)
+~~~
+~~~ sdparse
+Vprašajte jo , kateri konji prihajajo na dirkališče .
+det(konji,kateri)
+nsubj(prihajajo,konji)
+ccomp(Vprašajte,prihajajo)
+~~~
+~~~ sdparse
+naš zeleni tobogan , po vijugah katerega se kopalci lahko na obročih spuščajo v dvojcu
+nmod(vijugah,katerega)
+obl(spuščajo,vijugah)
+case(vijugah,po)
+acl(tobogan,spuščajo)
+~~~
+~~~ sdparse
+Gregor ni vedel,	kakšni so njegovi nameni 
+ccomp(vedel,kakšni)
+cop(kakšni,so)
+nsubj(kakšni,nameni)
+~~~
+
 
