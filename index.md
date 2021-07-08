@@ -1120,3 +1120,17 @@ obl(pogostejše,strah)
 amod(čustvo,pogostejše)
 case(strah,kot)
 ~~~
+
+#### T: druge strukture s primerjalnimi vezniki
+~~~ sdparse
+Zmaj , kot ga poznajo na Kitajskem , je živ 
+acl(Zmaj, poznajo)
+mark(poznajo, kot)
+~~~
+~~~ sdparse
+Lastnosti besedila , kot so velikost , teža in slog 
+acl(Lastnosti,so)
+mark(so,kot)
+~~~
+
+
