@@ -1458,3 +1458,31 @@ case(čemer,pri)
 obl(presenetljivo,čemer)
 ~~~
  
+#### T: prislovi in prislovni odvisniki
+~~~ sdparse
+Vsakič, ko vstopim v kuhinjo, ga nežno pobožam.
+advmod(pobožam,Vsakič)
+advcl(pobožam,vstopim)
+~~~
+~~~ sdparse
+Danes , ko boste s plesnimi koraki stopili življenju nasproti , ste vi župani tega mesta .
+advmod(župani,Danes)
+advcl(župani,stopili)
+cop(župani,ste)
+~~~
+~~~ sdparse
+Tam , kjer ste dobri , ste vladar .
+advmod(vladar,Tam)
+advcl(vladar,dobri)
+cop(vladar,ste-7)
+cop(dobri,ste-4)
+~~~
+
+~~~ sdparse
+Zdaj ko ni več kadrovskih štipendij, socialno šibke družine nimajo denarja za bivanje otrok .
+advcl(nimajo,ni)
+fixed(Zdaj,ko)
+mark(ni,Zdaj)
+~~~
+
+
