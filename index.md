@@ -1517,3 +1517,12 @@ advcl(uporabi,napade)
 cc(napade,a)
 advmod(napade,samo)
 ~~~
+~~~ sdparse
+uporabljamo orožje , toda	le zato , ker ne vemo , kako bi drugače dosegli spremembe 
+mark(vemo,zato)
+fixed(zato,ker)
+punct(zato,,-7)
+advcl(uporabljamo,vemo)
+cc(vemo,toda)
+advmod(vemo,le)
+~~~
