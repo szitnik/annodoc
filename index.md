@@ -1567,3 +1567,16 @@ conj(krp,gobe)
 conj(krp,trave)
 cc(trave,in)
 ~~~
+
+#### T: razdriženi količinski izrazi
+~~~ sdparse
+Največ se jih je izselilo v Argentino .
+obl(izselilo,Največ)
+nsubj(izselilo,jih)
+~~~
+~~~ sdparse
+teh je skupaj 14
+obl(je,14)
+nsubj(je,teh)
+~~~
+
