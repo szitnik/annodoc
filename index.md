@@ -1510,4 +1510,10 @@ advmod(bašemo,tudi)
 advcl(uživali,bašemo)
 ~~~
 
-
+~~~ sdparse
+Po ustanovni listini lahko članica ZN uporabi silo , a samo , če jo kdo napade z oboroženo silo
+mark(napade,če)
+advcl(uporabi,napade)
+cc(napade,a)
+advmod(napade,samo)
+~~~
