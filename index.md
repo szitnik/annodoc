@@ -1302,6 +1302,22 @@ amod(oblasti,avstrijske)
 case(romana,zaradi)
 nmod(romana,P)
 amod(Matici,razpuščeni)
-
 ~~~
 
+
+#### T: sekundarna predikacija
+~~~ sdparse
+Lase je imela pristrižene .
+acl(Lase,pristrižene)
+obj(imela,Lase)
+~~~
+~~~ sdparse
+Vsa prestrašena je Mrvica stekla po pomoč .
+acl(Mrvica,prestrašena)
+nsubj(stekla,Mrvica)
+~~~
+~~~ sdparse
+Ponesrečeno žensko so hudo ranjeno odpeljali v UKC .
+acl(žensko,ranjeno)
+obj(odpeljali,žensko)
+~~~
