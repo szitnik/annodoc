@@ -1424,6 +1424,7 @@ nsubj(spodbuda,Molitev)
 nmod(spodbuda,sprejemanje)
 case(sprejemanje,za)
 nmod(sprejemanje,odgovornosti)
+obj(spodbuda,nam)
 ~~~
 
 
