@@ -1347,3 +1347,32 @@ Velja za najpomembnejšo špansko blagovno znamko luksuznih izdelkov .
 xcomp(Velja,znamko)
 case(znamko,za)
 ~~~
+
+#### T: ločevanje povedkovega določila in osebka
+~~~ sdparse
+Ena od obtožb je bila njegovo škandalozno druženje z ženskami .
+nsubj(druženje,Ena)
+cop(druženje,bila)
+aux(druženje,je)
+~~~
+~~~ sdparse
+da bi bil to le blag dotik ob srečanju
+nsubj(dotik,to)
+cop(dotik,bil)
+aux(dotik,bi)
+~~~
+~~~ sdparse
+Za nas bo bistveno , ali bomo znali spretno ravnati
+csubj(bistveno,znali)
+cop(bistveno,bo)
+~~~
+~~~ sdparse
+Branko Majerič , ki je bil pobudnik tega strokovnega večera
+acl(Branko,pobudnik)
+cop(pobudnik,bil)
+aux(pobudnik,je)
+~~~
+
+
+
+
