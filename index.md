@@ -1497,14 +1497,14 @@ cop(zagotovljena,je)
 ~~~
 
 ~~~ sdparse
-Mladina se zdaj trumoma pojavlja na vratih mladega duhovnika , še posebno odkar ve, da obožuje tudi Metallico .
+Mladina se zdaj trumoma pojavlja na vratih duhovnika , še posebno odkar ve , da obožuje Metallico .
 mark(ve,odkar)
 advmod(ve,še)
 fixed(še,posebno)
 advcl(pojavlja,ve)
 ~~~
 ~~~ sdparse
-zakaj ne bi v hrani uživali	, tudi če se ne bašemo s čisto vsem
+zakaj ne bi v hrani uživali , tudi če se ne bašemo s čisto vsem
 mark(bašemo,če)
 advmod(bašemo,tudi)
 advcl(uživali,bašemo)
