@@ -1383,7 +1383,6 @@ obj(sposobni,tega)
 cop(sposobni,bili)
 aux(sposobni,bi)
 advmod(spodobni,ne)
-case(Sloveniji,v)
 ~~~
 ~~~ sdparse
 V predlogu zakona je to prepuščeno izbranim cenilcem
