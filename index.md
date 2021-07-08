@@ -1251,13 +1251,13 @@ V turističnem krožku so razmišljali , kako privabiti goste .
 ccomp(razmišljali,privabiti)
 ~~~
 ~~~ sdparse
-v zadnjem času se spet pojavljajo poskusi, oživiti življenje mladih
+v zadnjem času se spet pojavljajo poskusi , oživiti življenje mladih
 acl(poskusi,oživiti)
 ~~~
 ~~~ sdparse
 Konec koncev je potovati prav tako zabavno , kot prispeti na cilj .
 cop(zabavno,je)
-csubj(potovati)
+csubj(zabavno,potovati)
 advcl(zabavno, prispeti)
 mark(prispeti,kot)
 ~~~
