@@ -1170,5 +1170,12 @@ mark(zgodilo,tako)
 ~~~
 <!-- advcl iz moralo ali priti?-->
 
-
+~~~ sdparse
+mu lahko pride prav tako pri dokumentarnih kot igranih filmih
+cc:preconj(dokumentarnih,tako)
+cc(igranih,kot)
+conj(dokumentarnih,igranih)
+amod(filmih,dokumentarnih)
+case(filmih,pri)
+~~~
 
