@@ -1262,4 +1262,9 @@ advcl(zabavno, prispeti)
 mark(prispeti,kot)
 ~~~
 
+~~~ sdparse
+Pogodba mora biti jasna in eksaktna .
+xcomp(mora,jasna)
+cop(jasna,biti)
+~~~
 
