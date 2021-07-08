@@ -1268,3 +1268,31 @@ xcomp(mora,jasna)
 cop(jasna,biti)
 ~~~
 
+#### T: povezovanje - nedoločniki
+~~~ sdparse
+Podplati so se mi začeli lepiti na tla .
+xcomp(začeli,lepiti)
+nsubj(Podplati,začeli)
+aux(začeli,so)
+expl(lepiti,se)
+obj(lepiti,mi)
+obl(lepiti,tla)
+case(tla,na)
+~~~
+~~~ sdparse
+v tem času Osmani niso pustili graditi objektov
+xcomp(pustili,graditi)
+nsubj(pustili,Osmani)
+obl(graditi,času)
+obj(graditi,objektov)
+~~~
+~~~ sdparse
+ko so avstrijske oblasti dovolile zaradi romana P razpuščeni Matici spet delati
+xcomp(dovolile,delati)
+nsubj(dovolile,oblasti)
+iobj(dovolile,Matici)
+obl(dovolile,romana)
+advmod(delati,spet)
+
+~~~
+
