@@ -1560,11 +1560,6 @@ advmod(polnoči,šele)
 case(polnoči,po)
 ~~~
 ~~~ sdparse
-Moškim je vstop dovoljen šele po polnoči.
-advmod(polnoči,šele)
-case(polnoči,po)
-~~~
-~~~ sdparse
 vložki iz krp , spletene volne , gobe	in celo trave
 advmod(trave,celo)
 conj(krp,volne)
