@@ -1451,7 +1451,7 @@ parataxis(samevala,izkoristil)
 obj(izkoristil,kar)
 ~~~
 ~~~ sdparse
-Pri lastninjenju prihaja do številnih zlorab ,	pri čemer je presenetljivo, da pravosodje ne reagira
+Pri lastninjenju prihaja do številnih zlorab ,	pri čemer je presenetljivo , da pravosodje ne reagira
 parataxis(prihaja,presenetljivo)
 cop(presenetljivo,je)
 case(čemer,pri)
