@@ -1544,10 +1544,31 @@ advmod(40,približno)
 nummod(koncertov,40)
 ~~~
 ~~~ sdparse
-Pri grafiki to ni tako	zelo neposredno .
+Pri grafiki to ni tako zelo neposredno .
 advmod(neposredno,zelo)
 advmod(zelo,tako)
 cop(neposredno,ni)
 ~~~
 
-
+~~~ sdparse
+Pravo delo se bo šele začelo .
+advmod(začelo,šele)
+~~~
+~~~ sdparse
+Moškim je vstop dovoljen šele po polnoči.
+advmod(polnoči,šele)
+case(polnoči,po)
+~~~
+~~~ sdparse
+Moškim je vstop dovoljen šele po polnoči.
+advmod(polnoči,šele)
+case(polnoči,po)
+~~~
+~~~ sdparse
+vložki iz krp , spletene volne , gobe	in celo trave
+advmod(trave,celo)
+conj(krp,volne)
+conj(krp,gobe)
+conj(krp,trave)
+cc(trave,in)
+~~~
