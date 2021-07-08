@@ -1217,4 +1217,21 @@ discourse(gre,Skratka)
 ~~~
 
 
+#### T: nedoločniki
+~~~ sdparse
+Država potemtakem mora uvesti nove davke
+xcomp(mora,uvesti)
+~~~
+
+~~~ sdparse
+Seveda ni mogoče/ADJ ničesar narediti čez noč
+cop(mogoče,ni)
+csubj(mogoče,narediti)
+~~~
+~~~ sdparse
+Tako je cilj srečanja predvsem spodbuditi povezovanje malih podjetnikov
+cop(cilj,je)
+csubj(cilj,spodbuditi)
+~~~
+
 
