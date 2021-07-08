@@ -1134,3 +1134,20 @@ mark(so,kot)
 ~~~
 
 
+~~~ sdparse
+Augusto Pinochet je zdaj , kot pravijo , na začetku poti
+advcl(je, pravijo)
+mark(pravijo, kot)
+~~~
+~~~ sdparse
+Valimo krivdo na sonce; kot da smo capini po sili usode .
+advcl(Valimo,capini)
+mark(capini,kot)
+fixed(kot,da)
+cop(capini,smo)
+~~~
+
+
+
+
+
