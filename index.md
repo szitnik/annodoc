@@ -1198,7 +1198,22 @@ cop(alkoholik,Sem)
 ~~~ sdparse
 Pogledala me je , nato pa se spet obrnila k reki .
 advmod(obrnila,pa)
+advmod(obrnila,nato)
 parataxis(Pogledala,obrnila)
+~~~
+
+
+~~~ sdparse
+Torej , gre za to , kakšen je učinek .
+discourse(gre,Torej)
+~~~
+~~~ sdparse
+Kakorkoli , obstaja utemeljeni sum .
+discourse(obstaja,Kakorkoli)
+~~~
+~~~ sdparse
+Skratka , gre za ubežnike iz psihiatričnih ustanov .
+discourse(gre,Skratka)
 ~~~
 
 
