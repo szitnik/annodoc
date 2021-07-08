@@ -1526,3 +1526,28 @@ advcl(uporabljamo,vemo)
 cc(vemo,toda)
 advmod(vemo,le)
 ~~~
+
+
+#### T: poudarjalni prislovi
+~~~ sdparse
+Veliko se je govorilo o hladni vojni .
+advmod(govorilo,Veliko)
+~~~
+~~~ sdparse
+Jaz sem se spuščal čedalje globlje v psihopatologijo
+advmod(globlje,čedalje)
+advmod(spuščal,globlje)
+~~~
+~~~ sdparse
+Odigrali so približno 40 koncertov po Sloveniji .
+advmod(40,približno)
+nummod(koncertov,40)
+~~~
+~~~ sdparse
+Pri grafiki to ni tako	zelo neposredno .
+advmod(neposredno,zelo)
+advmod(zelo,tako)
+cop(neposredno,ni)
+~~~
+
+
