@@ -1375,4 +1375,40 @@ aux(pobudnik,je)
 
 
 
+#### T: povezovanje in pridevniška določila
+~~~ sdparse
+V Sloveniji tega ne bi bili sposobni
+obl(sposobni,Sloveniji)
+obj(sposobni,tega)
+cop(sposobni,bili)
+aux(sposobni,bi)
+advmod(spodobni,ne)
+case(Sloveniji,v)
+~~~
+~~~ sdparse
+V predlogu zakona je to prepuščeno izbranim cenilcem
+obl(prepuščeno,predlogu)
+cop(prepuščeno,je)
+nsubj(prepuščeno,to)
+obj(prepuščeno,cenilcem)
+~~~
+
+
+~~~ sdparse
+na njih so ostale zapisane njegove misli
+xcomp(ostale,zapisane)
+obl(ostale,njih)
+nsubj(ostale,misli)
+~~~
+~~~ sdparse
+Kljub tradiciji so bili tokrat organizatorji prisiljeni izvesti nekatere spremembe .
+cop(prisiljeni,bili)
+obl(prisiljeni,tradiciji)
+advmod(prisiljeni,tokrat)
+nsubj(prisiljeni,organizatorji)
+ccomp(prisiljeni,izvesti)
+obj(izvesti,spremembe)
+~~~
+
+
 
