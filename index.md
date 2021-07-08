@@ -1148,6 +1148,27 @@ cop(capini,smo)
 ~~~
 
 
+~~~ sdparse
+z mizami za več kot 10 ljudi 
+fixed(več,kot)
+advmod(10,več)
+case(ljudi,za)
+nummod(ljudi,10)
+~~~
+~~~ sdparse
+so običajni mobilni terminali vse prej kot primerni 
+fixed(vse,prej)
+fixed(vse,kot)
+advmod(primerni,vse)
+cop(primerni,so)
+~~~
+~~~ sdparse
+bi moralo priti do sprave s televizijo, tako kot se je to zgodilo s časopisi
+fixed(tako,kot)
+advcl(moralo,zgodilo)
+mark(zgodilo,tako)
+~~~
+<!-- advcl iz moralo ali priti?-->
 
 
 
