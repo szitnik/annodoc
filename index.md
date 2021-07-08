@@ -1234,4 +1234,15 @@ cop(cilj,je)
 csubj(cilj,spodbuditi)
 ~~~
 
+~~~ sdparse
+občasno jih je treba/ADV spraviti v en koš
+csubj(je,spraviti)
+advmod(je,treba)
+~~~
+~~~ sdparse
+v zraku je bilo čutiti nekakšno vznemirjenje
+csubj(bilo,čutiti)
+aux(bilo,je)
+~~~
+
 
