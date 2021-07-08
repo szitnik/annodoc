@@ -1285,6 +1285,9 @@ xcomp(pustili,graditi)
 nsubj(pustili,Osmani)
 obl(graditi,času)
 obj(graditi,objektov)
+case(času,v)
+det(času,tem)
+aux(pustili,niso)
 ~~~
 ~~~ sdparse
 ko so avstrijske oblasti dovolile zaradi romana P razpuščeni Matici spet delati
@@ -1293,6 +1296,12 @@ nsubj(dovolile,oblasti)
 obj(dovolile,Matici)
 obl(dovolile,romana)
 advmod(delati,spet)
+mark(dovolile,ko)
+aux(dovolile,so)
+amod(oblasti,avstrijske)
+case(romana,zaradi)
+nmod(romana,P)
+amod(Matici,razpuščeni)
 
 ~~~
 
