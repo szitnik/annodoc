@@ -1409,5 +1409,21 @@ ccomp(prisiljeni,izvesti)
 obj(izvesti,spremembe)
 ~~~
 
+#### T: povezovanje in samostalniška določila
+~~~ sdparse
+To je bil hkrati tudi težko pričakovan test pnevmatik za novi razred
+cop(test,bil)
+nmod(test,pnevmatik)
+nmod(test,razred)
+case(razred,za)
+~~~
+~~~ sdparse
+Molitev naj nam bo najmočnejša spodbuda za sprejemanje odgovornosti .
+cop(spodbuda,bo)
+nsubj(spodbuda,Molitev)
+nmod(spodbuda,sprejemanje)
+case(sprejemanje,za)
+nmod(sprejemanje,odgovornosti)
+~~~
 
 
