@@ -1555,7 +1555,7 @@ Pravo delo se bo šele začelo .
 advmod(začelo,šele)
 ~~~
 ~~~ sdparse
-Moškim je vstop dovoljen šele po polnoči.
+Moškim je vstop dovoljen šele po polnoči .
 advmod(polnoči,šele)
 case(polnoči,po)
 ~~~
