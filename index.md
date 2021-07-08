@@ -1190,3 +1190,16 @@ Saj samo spiš !
 cc(spiš,Saj)
 ~~~
 
+~~~ sdparse
+Sem namreč zdravljeni alkoholik .
+advmod(alkoholik,namreč)
+cop(alkoholik,Sem)
+~~~
+~~~ sdparse
+Pogledala me je , nato pa se spet obrnila k reki .
+advmod(obrnila,pa)
+parataxis(Pogledala,obrnila)
+~~~
+
+
+
