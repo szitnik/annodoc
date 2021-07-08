@@ -1629,3 +1629,44 @@ nsubj(kakšni,nameni)
 ~~~
 
 
+
+#### T: okrajšave in simboli
+~~~ sdparse
+baročni oltar sv. Marka
+amod(Marka,sv.)
+~~~
+~~~ sdparse
+vsak kmet ima t. i. hlevsko knjigo
+amod(knjigo,t.)
+fixed(t.,i.)
+~~~
+~~~ sdparse
+vzorci sovinjona oz. muškatnega silvanca
+cc(silvanca,oz.)
+conj(sovinjona,silvanca)
+~~~
+~~~ sdparse
+tudi Barbara P. iz sosednje vasi
+flat:name(Barbara,P.)
+~~~
+~~~ sdparse
+Kmetijski minister dr. Milan Pogačnik
+nmod(Milan,dr.)
+flat:name(Milan,Pogačnik)
+~~~
+
+~~~ sdparse
+poravnati približno 60 % obveznosti
+nummod(%,60)
+nmod(%,obveznosti)
+obj(poravnati,%)
+~~~
+~~~ sdparse
+voda se je segrela na 35,7 ° C
+nummod(°,35,7)
+nmod(°,C)
+obl(segrela,°)
+case(°,na)
+~~~
+
+
