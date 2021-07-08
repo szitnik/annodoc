@@ -1321,3 +1321,12 @@ Ponesrečeno žensko so hudo ranjeno odpeljali v UKC .
 acl(žensko,ranjeno)
 obj(odpeljali,žensko)
 ~~~
+
+~~~ sdparse
+Prišla je oblečena v eleganten komplet s svetlomodro bluzo .
+advcl(Prišla,oblečena)
+~~~
+~~~ sdparse
+Ves blaten sem bil ob srečanju s kagujem nenadoma najsrečnejši človek .
+advcl(človek,blaten)
+~~~
