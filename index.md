@@ -1330,3 +1330,20 @@ advcl(Prišla,oblečena)
 Ves blaten sem bil ob srečanju s kagujem nenadoma najsrečnejši človek .
 advcl(človek,blaten)
 ~~~
+
+
+~~~ sdparse
+Voda ostaja najboljši dodatek za gnojevko . 
+xcomp(ostaja,dodatek)
+nsubj(ostaja,Voda)
+~~~
+~~~ sdparse
+Potem je svet postal lepši . 
+xcomp(postal,lepši)
+nsubj(postal,svet)
+~~~
+~~~ sdparse
+Velja za najpomembnejšo špansko blagovno znamko luksuznih izdelkov .
+xcomp(Velja,znamko)
+case(znamko,za)
+~~~
