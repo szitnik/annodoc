@@ -1622,7 +1622,7 @@ case(vijugah,po)
 acl(tobogan,spuščajo)
 ~~~
 ~~~ sdparse
-Gregor ni vedel,	kakšni so njegovi nameni 
+Gregor ni vedel ,	kakšni so njegovi nameni 
 ccomp(vedel,kakšni)
 cop(kakšni,so)
 nsubj(kakšni,nameni)
