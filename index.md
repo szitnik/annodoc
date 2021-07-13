@@ -22,6 +22,23 @@ R1 ITI_V_TRGOVINO Arg1:T1 Arg2:T2
 
 To je zelo specifična povezava, ki vpliva na zelo velijo jezikovnih značilnosti, o katerih se bomo razpisali v nadaljevanju .... 
 
+~~~ sdparse
+Premišljeval/VERB je/AUX o/ADP Jayu/PROPN in/CCONJ njegovih/DET prijateljih/NOUN ,/PUNCT ko/SCONJ je/AUX prečkal/VERB temačno/ADJ parkirišče/NOUN ./PUNCT
+advcl(Premišljeval,prečkal)
+aux(Premišljeval,je)
+case(Jayu,o)
+obl(Premišljeval,Jayu)
+cc(prijateljih,in)
+det(prijateljih,njegovih)
+conj(Jayu,prijateljih)
+punct(prečkal,,)
+mark(prečkal,ko)
+aux(prečkal,je-10)
+amod(parkirišče,amod)
+obj(prečkal,parkirišče)
+punct(Premišljeval,.)
+~~~
+
 #### acl
 <!--- prilastkovi odvisniki--->
 ~~~ sdparse
