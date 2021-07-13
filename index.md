@@ -34,7 +34,7 @@ conj(Jayu,prijateljih)
 punct(prečkal,,)
 mark(prečkal,ko)
 aux(prečkal,je-10)
-amod(parkirišče,amod)
+amod(parkirišče,temačno)
 obj(prečkal,parkirišče)
 punct(Premišljeval,.)
 ~~~
