@@ -317,16 +317,20 @@ Vitka Ribičič je postregla s kratkim , a jasnim odgovorom
 conj(kratkim,jasnim)
 cc(jasnim,a)
 punct(jasnim,,)
+amod(odgovorom,kratkim)
 ~~~
 ~~~ sdparse
 drugi so bolj ali manj zanimivi
 conj(bolj,manj)
 cc(manj,ali)
+advmod(zanimivi,bolj)
 ~~~
 ~~~ sdparse
 opaziti je že tudi predstavnike ruske finančno - ekonomske elite
 conj(finančno,ekonomske)
 punct(ekonomske,-)
+amod(elite,finančno)
+amod(elite,ruske)
 ~~~
 
 
@@ -337,8 +341,9 @@ cc(spregovoril,vendar)
 ~~~
 ~~~ sdparse
 Prvenstvo bo zelo izenačeno , saj lahkega tekmeca tokrat ne bo .
-conj(izenačeno,bo)
-cc(bo,saj)
+conj(izenačeno,bo-11)
+cc(bo-11,saj)
+cop(izenačeno,bo)
 ~~~
 ~~~ sdparse
 Ko si enkrat na vrhu in se poškoduješ , se je težko vrniti .
