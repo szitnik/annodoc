@@ -260,18 +260,23 @@ case(filharmoniji,V)
 ~~~ sdparse
 mojstrica poslovne komunikacije in svetovalka
 cc(svetovalka,in)
+conj(mojstrica,svetovalka)
 ~~~
 ~~~ sdparse
 Meso je lahko belo , modrikasto ali zelenkasto
 cc(zelenkasto,ali)
+conj(belo,modrikasto)
+conj(belo,zelenkasto)
 ~~~
 ~~~ sdparse
 na območju od Kočevske Reke do Pirč oz. Broda na Kolpi
 cc(Broda,oz.)
+conj(Pirč,Broda)
 ~~~
 ~~~ sdparse
 Vprašanje se morda zdi absurdno , vendar je nekaj vzporednic .
 cc(je,vendar)
+conj(zdi,je)
 ~~~
 ~~~ sdparse
 A slednjega se pri Peugeotu gotovo ne bojijo več .
