@@ -587,15 +587,19 @@ flat(041,534)
 ~~~ sdparse
 Ko si enkrat na vrhu , se je težko vrniti.
 mark(si,Ko)
+advcl(težko,si)
+cop(težko,je)
 ~~~
 ~~~ sdparse
 Honorar , ki ga bo prejela , naj bi imel sedem številk. 
 mark(prejela,ki)
+acl(Honorar,prejela)
 ~~~
 ~~~ sdparse
 Razmislite , ali je ta beseda ustrezna za naslov romana.
 mark(ustrezna,ali)
 cop(ustrezna,je)
+ccomp(Razmislite,ustrezna)
 ~~~
 
 
