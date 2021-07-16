@@ -1045,10 +1045,12 @@ case(krivega,za)
 
 #### T: elipse
 ~~~ sdparse
-Sebi je kupila rdeč klobuk , meni pa je podarila zelenega .
+Sebi je kupila en rdeč klobuk , meni pa je podarila enega zelenega .
 obj(kupila,klobuk)
+nummod(klobuk,en)
 amod(klobuk,rdeč)
 obj(podarila,zelenega)
+nummod(zelenega,enega)
 ~~~
 
 
@@ -1097,7 +1099,7 @@ Odprtina se poveča najpozneje takrat , pogosto pa že prej .
 parataxis(poveča,pogosto)
 orphan(pogosto,pa)
 orphan(pogosto,prej)
-orphan(pogosto,že)
+advmod(prej,že)
 ~~~
 
 
