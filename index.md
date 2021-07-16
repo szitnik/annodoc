@@ -82,7 +82,10 @@ advcl(Premišljeval,prečkal)
 ~~~
 ~~~ sdparse
 Čeprav so poroke večinoma veseli dogodki , so lahko priprave na to slavje polne težav .
-advcl(težav,dogodki)
+advcl(polne,dogodki)
+cop(polne,so)
+nsubj(polne,priprave)
+
 ~~~
 
 
