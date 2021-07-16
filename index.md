@@ -83,7 +83,7 @@ advcl(Premišljeval,prečkal)
 ~~~ sdparse
 Čeprav so poroke večinoma veseli dogodki , so lahko priprave na to slavje polne težav .
 advcl(polne,dogodki)
-cop(polne,so)
+cop(polne,so-8)
 nsubj(polne,priprave)
 
 ~~~
