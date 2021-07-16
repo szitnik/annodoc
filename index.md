@@ -353,33 +353,33 @@ cc(poškoduješ,in)
 
 #### cop
 ~~~ sdparse
-Začetek izvajanja programa je odvisen od podpisa sporazuma
+Začetek izvajanja programa je/AUX odvisen od podpisa sporazuma
 cop(odvisen,je)
 nsubj(odvisen,Začetek)
 ~~~
 ~~~ sdparse
-Rečna jezera mrtvice so stalni spremljevalci Mure 
+Rečna jezera mrtvice so/AUX stalni spremljevalci Mure 
 cop(spremljevalci,so)
 nsubj(spremljevalci,jezera)
 ~~~
 ~~~ sdparse
-Da , jaz	sem tisti , ki bi moral biti tukaj
+Da , jaz	sem/AUX tisti , ki bi moral biti tukaj
 cop(tisti,sem)
 nsubj(tisti,jaz)
 ~~~
 ~~~ sdparse
-Niti prijatelja nista več bila
+Niti prijatelja nista/AUX več bila/AUX
 cop(prijatelja,bila)
 aux(prijatelja,nista)
 ~~~
 
 ~~~ sdparse
-kajenje je prepovedano
+kajenje je/AUX prepovedano
 cop(prepovedano,je)
 nsubj(prepovedano,kajenje)
 ~~~
 ~~~ sdparse
-kajenje ji je bilo prepovedano
+kajenje ji je/AUX bilo/AUX prepovedano
 cop(prepovedano,bilo)
 aux(prepovedano,je)
 nsubj(prepovedano,kajenje)
