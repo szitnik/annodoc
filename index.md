@@ -297,6 +297,7 @@ ccomp(Ugotovili,podaljšal)
 ~~~ sdparse
 Prepričan sem , da je terjalo veliko korajže , je svečano rekel Tom .
 ccomp(Prepričan,terjalo)
+cop(Prepričan,sem)
 ~~~
 ~~~ sdparse
 Udeležence že opozarjajo , naj med tekom ne jemljejo vode iz rok neznanih gledalcev
