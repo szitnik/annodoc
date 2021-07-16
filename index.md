@@ -211,25 +211,26 @@ appos(Liso,prijateljico)
 
 #### aux
 ~~~ sdparse
-na kar so udeleženci reagirali z gromkim aplavzom
+na kar so/AUX udeleženci reagirali z gromkim aplavzom
 aux(reagirali,so)
 ~~~
 ~~~ sdparse
-Za to bosta poskrbela Nikki in njen štirinožni ljubljenček
+Za to bosta/AUX poskrbela Nikki in njen štirinožni ljubljenček
 aux(poskrbela,bosta)
 ~~~
 ~~~ sdparse
-Zakaj bi divjali okoli , če to ni potrebno
+Zakaj bi/AUX divjali okoli , če to ni potrebno
 aux(divjali,bi)
 ~~~
 ~~~ sdparse
-Takrat naj bi se bil proti njemu zagnal Robi .
+Takrat naj bi/AUX se bil/AUX proti njemu zagnal Robi .
 aux(zagnal,bi)
 aux(zagnal,bil)
 ~~~
 ~~~ sdparse
-Zaradi njegovega polhastega spanja je bila večkrat jezna .
+Zaradi njegovega polhastega spanja je/AUX bila/AUX večkrat jezna .
 aux(jezna,je)
+cop(jezna,bila)
 ~~~
 
 #### case
