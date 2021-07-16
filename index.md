@@ -640,8 +640,8 @@ nmod(prilagajanje,merilom)
 ~~~
 
 ~~~ sdparse
-Poraženci za kaj takega nimajo časa .
-nmod(kaj,takega)
+Zato tudi ne manjka odzivov	nanjo .
+nmod(odzivov,nanjo)
 ~~~
 ~~~ sdparse
 eden od ciljev je državno prvenstvo
