@@ -1664,12 +1664,6 @@ nsubj(prihajajo,konji)
 ccomp(Vprašajte,prihajajo)
 ~~~
 ~~~ sdparse
-Vprašajte jo , kateri konji prihajajo na dirkališče .
-det(konji,kateri)
-nsubj(prihajajo,konji)
-ccomp(Vprašajte,prihajajo)
-~~~
-~~~ sdparse
 naš zeleni tobogan , po vijugah katerega se kopalci lahko na obročih spuščajo v dvojcu
 nmod(vijugah,katerega)
 obl(spuščajo,vijugah)
