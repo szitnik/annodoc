@@ -1278,23 +1278,23 @@ xcomp(mora,uvesti)
 ~~~
 
 ~~~ sdparse
-Seveda ni mogoče/ADJ ničesar narediti čez noč
+Seveda ni/AUX mogoče/ADJ ničesar narediti čez noč
 cop(mogoče,ni)
 csubj(mogoče,narediti)
 ~~~
 ~~~ sdparse
-Tako je cilj srečanja predvsem spodbuditi povezovanje malih podjetnikov
+Tako je/AUX cilj srečanja predvsem spodbuditi povezovanje malih podjetnikov
 cop(cilj,je)
 csubj(cilj,spodbuditi)
 ~~~
 
 ~~~ sdparse
-občasno jih je treba/ADV spraviti v en koš
+občasno jih je/VERB treba/ADV spraviti v en koš
 csubj(je,spraviti)
 advmod(je,treba)
 ~~~
 ~~~ sdparse
-v zraku je bilo čutiti nekakšno vznemirjenje
+v zraku je/AUX bilo/VERB čutiti nekakšno vznemirjenje
 csubj(bilo,čutiti)
 aux(bilo,je)
 ~~~
