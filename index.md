@@ -608,11 +608,13 @@ ccomp(Razmislite,ustrezna)
 Tako nam ni preostalo drugega , kot da smo pustili nepopito pijačo in odšli .
 fixed(kot,da)
 mark(pustili,kot)
+advcl(preostalo,pustili)
 ~~~
 ~~~ sdparse
 Upam , da turistični delavci , medtem ko bodo širili Pohorje , ne bodo pozabili na to
 fixed(medtem,ko)
 mark(širili,medtem)
+advcl(pozabili,širili)
 ~~~
 
 #### nmod
