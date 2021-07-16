@@ -1470,6 +1470,7 @@ cop(test,bil)
 nmod(test,pnevmatik)
 nmod(test,razred)
 case(razred,za)
+nsubj(test,To)
 ~~~
 ~~~ sdparse
 Molitev naj nam bo najmočnejša spodbuda za sprejemanje odgovornosti .
