@@ -137,15 +137,18 @@ advmod(porinila,naj)
 ~~~ sdparse
 normalno delujoče mišice
 advmod(delujoče,normalno)
+amod(mišice,delujoče)
 ~~~
 ~~~ sdparse
 dogodki so se odvijali bistveno drugače
 advmod(drugače,bistveno)
+advmod(odvijali,drugače)
 ~~~
 ~~~ sdparse
 farmarjem ne prav ljubi časopisi
 advmod(ljubi,ne)
 advmod(ljubi,prav)
+amod(časopisi,ljubi)
 ~~~
 
 
@@ -162,6 +165,7 @@ advmod(torek,zvečer)
 ~~~ sdparse
 popke takoj ob začetku sušenja hitro segrejejo
 advmod(začetku,takoj)
+case(začetku,ob)
 ~~~
 
 ~~~ sdparse
