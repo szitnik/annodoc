@@ -423,8 +423,9 @@ csubj(izziv,odkriti)
 cop(izziv,bil)
 ~~~
 ~~~ sdparse
-Te modele je treba potem le malenkostno prilagoditi .
+Te modele je/VERB treba/ADV potem le malenkostno prilagoditi .
 csubj(je,prilagoditi)
+advmod(je,treba)
 ~~~
 
 #### dep
