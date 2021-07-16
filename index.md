@@ -671,17 +671,20 @@ ta na pogled prostodušna opazka
 nmod(prostodušna,pogled)
 case(pogled,na)
 amod(opazka,prostodušna)
+det(opazka,ta)
 ~~~
 ~~~ sdparse
 v niz razporejene slabotne zobce
 nmod(razporejene,niz)
 case(niz,v)
 amod(zobce,razporejene)
+amod(zobce,slabotne)
 ~~~
 ~~~ sdparse
 773 metrov visok vrh 
 nmod(visok,metrov)
 amod(vrh,visok)
+nummod(metrov,773)
 ~~~
 
 ~~~ sdparse
