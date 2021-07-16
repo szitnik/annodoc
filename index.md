@@ -18,7 +18,7 @@ T2 ORGANIZATION 21 29 Mercator
 R1 ITI_V_TRGOVINO Arg1:T1 Arg2:T2
 ~~~
 
---->
+
 
 To je zelo specifična povezava, ki vpliva na zelo velijo jezikovnih značilnosti, o katerih se bomo razpisali v nadaljevanju .... 
 
@@ -38,6 +38,8 @@ amod(parkirišče,temačno)
 obj(prečkal,parkirišče)
 punct(Premišljeval,.)
 ~~~
+
+--->
 
 #### acl
 <!--- prilastkovi odvisniki--->
@@ -60,14 +62,17 @@ acl(tisto,zapustili)
 ~~~ sdparse
 Lase je imela pristrižene .
 acl(Lase,pristrižene)
+obj(imela,Lase)
 ~~~
 ~~~ sdparse
 Vsa prestrašena je Mrvica stekla po pomoč .
 acl(Mrvica,prestrašena)
+nsubj(stekla,Mrvica)
 ~~~
 ~~~ sdparse
 Ponesrečeno žensko so hudo ranjeno odpeljali v UKC .
 acl(žensko,ranjeno)
+obj(odpeljali,žensko)
 ~~~
 
 #### advcl
