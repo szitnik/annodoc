@@ -408,7 +408,7 @@ cop(jasno,Bilo)
 
 
 ~~~ sdparse
-Podatke iz evidence je mogoče	dobiti samo na podlagi pisne prošnje posameznika .
+Podatke iz evidence je/AUX mogoče/ADJ	dobiti samo na podlagi pisne prošnje posameznika .
 csubj(mogoče,dobiti)
 cop(mogoče,je)
 ~~~
