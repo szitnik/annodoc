@@ -286,6 +286,7 @@ cc(bojijo,A)
 Tudi zato s tovrstnim nasiljem ne ravnatelji ne učitelji nimajo izkušenj .
 cc(učitelji,ne-8)
 cc:preconj(ravnatelji,ne-6)
+conj(ravnatelji,učitelji)
 ~~~
 
 #### ccomp
