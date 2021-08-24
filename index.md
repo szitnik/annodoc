@@ -1741,7 +1741,7 @@ Postojna - Z nedeljskim mitingom so se končali Dnevi vojske
 parataxis(končali,Postojna)
 ~~~
 ~~~ sdparse
-Prav idealizacija določenih oblik lepote je prispevala k oblikovanju nacionalnih parkov (Aitchison 2002).
+Prav idealizacija določenih oblik lepote je prispevala k oblikovanju nacionalnih parkov ( Aitchison 2002 ) .
 parataxis(prispevala,Aitchison)
 nummod(Aitchison,2002)
 ~~~
