@@ -1718,4 +1718,25 @@ obl(segrela,°)
 case(°,na)
 ~~~
 
-
+#### T: jedro paratakse
+~~~ sdparse
+Svetujemo : Bodite pozitivni do sebe in svoje okolice .
+parataxis(Svetujemo,pozitivni)
+cop(pozitivni,Bodite)
+~~~
+~~~ sdparse
+Nekaj ljudi iz te bolnišnice odide drugam , nekaj pa jih pride iz drugih .
+parataxis(odide,pride)
+advmod(pride,pa)
+~~~
+~~~ sdparse
+Obarvanost : Hrbet in zgornji del bokov sta temna z zelenkastimi odtenki , spodnji del bokov in trebuh pa srebrna .
+parataxis(Obarvanost,temna)
+parataxis(temna,srebrna)
+~~~
+~~~ sdparse
+Priznala je , da se tudi v kuhinji kdaj zgodi nesreča : Nekateri pravijo , da to prinaša srečo , drugi nesrečo , meni pa taka nesreča prinaša le dodatno delo .
+parataxis(Priznala,pravijo)
+parataxis(prinaša,drugi)
+parataxis(pravijo,prinaša)
+~~~
