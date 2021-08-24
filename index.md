@@ -202,7 +202,7 @@ amod(ladja,velika)
 #### appos
 ~~~ sdparse
 Območje medenice je središče telesa , glavna peč , ki greje in uravnava vse telo
-appos(telesa,peč)
+appos(središče,peč)
 ~~~
 ~~~ sdparse
 Dianne se je sprla z Liso , svojo prijateljico , in se je odločila, da gre domov 
