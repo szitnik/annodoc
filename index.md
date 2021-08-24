@@ -1807,3 +1807,10 @@ appos(kasneje,letih)
 case(letih,v)
 amod(letih,zrelih)
 ~~~
+~~~ sdparse
+Hrbtna in repna plavut sta temne srebrnkaste do rumenkaste barve , prsne in trebušni plavuti pa temno rumeno pegaste . 
+parataxis(barve,pegaste)
+nsubj(pegaste,plavuti)
+advmod(pegaste,pa)
+advmod(pegaste,rumeno)
+~~~
