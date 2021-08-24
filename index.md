@@ -7,7 +7,7 @@ Tu so moja super-duper navodila za označevanje
 
 #### Označevanje povezave ITI V TRGOVINO
 
-Tu prikazujemo način označevanja povezav iti v trgovino.
+Tu prikazujemo način označevanja povezav iti v trgovino
 
 <!--- Kaja začasno zakomentirala zaradi avtomatskega številčenja primerov, ki sledijo
 
@@ -1727,16 +1727,21 @@ cop(pozitivni,Bodite)
 ~~~ sdparse
 Nekaj ljudi iz te bolnišnice odide drugam , nekaj pa jih pride iz drugih .
 parataxis(odide,pride)
-advmod(pride,pa)
 ~~~
 ~~~ sdparse
 Obarvanost : Hrbet in zgornji del bokov sta temna z zelenkastimi odtenki , spodnji del bokov in trebuh pa srebrna .
 parataxis(Obarvanost,temna)
 parataxis(temna,srebrna)
 ~~~
+
+#### T: nestavčna parataksa
+
 ~~~ sdparse
-Priznala je , da se tudi v kuhinji kdaj zgodi nesreča : Nekateri pravijo , da to prinaša srečo , drugi nesrečo , meni pa taka nesreča prinaša le dodatno delo .
-parataxis(Priznala,pravijo)
-parataxis(prinaša,drugi)
-parataxis(pravijo,prinaša)
+Postojna - Z nedeljskim mitingom so se končali Dnevi vojske
+parataxis(končali,Postojna)
+~~~
+~~~ sdparse
+Prav idealizacija določenih oblik lepote je prispevala k oblikovanju nacionalnih parkov (Aitchison 2002).
+parataxis(prispevala,Aitchison)
+nummod(Aitchison,2002)
 ~~~
