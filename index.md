@@ -1745,3 +1745,17 @@ Prav idealizacija določenih oblik lepote je prispevala k oblikovanju nacionalni
 parataxis(prispevala,Aitchison)
 nummod(Aitchison,2002)
 ~~~
+
+~~~ sdparse
+O uniformi vemo , da je nasprotje sproščenosti , znamenje poenotenosti .
+appos(nasprotje,znamenje)
+~~~
+~~~ sdparse
+Na voljo dajo nov izdelek , na primer depilator .
+appos(izdelek,depilator)
+~~~
+~~~ sdparse
+Ithaca : Cornell University Press .
+appos(Ithaca,Cornell)
+~~~
+
