@@ -1790,7 +1790,7 @@ cc(depilator,na)
 Prvotno je bil razširjen v Severni Ameriki , predvsem v jezerih .
 appos(Ameriki,jezerih)
 advmod(jezerih,predvsem)
-case(jezerih,v)
+case(jezerih,v-10)
 ~~~
 ~~~ sdparse
 Jezera so bolj ali manj oligotrofna , to je , z malo hranilnih snovi .
