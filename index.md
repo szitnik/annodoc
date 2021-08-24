@@ -1759,3 +1759,51 @@ Ithaca : Cornell University Press .
 appos(Ithaca,Cornell)
 ~~~
 
+#### T: pojasnjevalne strukture
+~~~ sdparse
+Nov sistem najemnine bo začel veljati šele v začetku leta 2005 , in sicer bo prehod tudi tedaj postopen .
+conj(začel,postopen)
+cop(postopen, bo-15)
+fixed(in,sicer)
+cc(postopen,in)
+~~~
+~~~ sdparse
+Zaradi negativne naravnanosti v življenju zapademo v bolezen , lahko tudi v odvisnost .
+parataxis(zapademo,odvisnost)
+orphan(odvisnost,lahko)
+advmod(odvisnost,tudi)
+case(odvisnost,v)
+~~~
+~~~ sdparse
+Zamešajte puder z bleščicami ( najbolje v roza barvi ) in losjon za telo .
+parataxis(Zamešajte,barvi)
+orphan(barvi,najbolje)
+~~~
+
+~~~ sdparse
+Na voljo dajo nov izdelek , na primer depilator .
+appos(izdelek,depilator)
+fixed(na,primer)
+cc(depilator,na)
+~~~
+~~~ sdparse
+Prvotno je bil razširjen v Severni Ameriki , predvsem v jezerih .
+appos(Ameriki,jezerih)
+advmod(jezerih,predvsem)
+case(jezerih,v)
+~~~
+~~~ sdparse
+Jezera so bolj ali manj oligotrofna , to je , z malo hranilnih snovi .
+appos(oligotrofna,snovi)
+case(snovi,z)
+det(snovi,malo)
+amod(snovi,hranilnih)
+fixed(to,je)
+cc(snovi,to)
+~~~
+~~~ sdparse
+Še kasneje , v zrelih letih , je zelo dobro spal .
+appos(kasneje,letih)
+case(letih,v)
+amod(letih,zrelih)
+~~~
