@@ -1902,3 +1902,41 @@ obl(tiči,7270)
 Potem pa le pazi name .
 obl(pazi,name)
 ~~~
+~~~ sdparse
+Kandidata pa za to obtožujeta drug drugega .
+obl(obtožujeta,drug)
+obj(obtožujeta,drugega)
+~~~
+
+##### novi-parataxis
+~~~ sdparse
+Kar zadeva zmogljivost , je bil računalnik hiter .
+parataxis(zadeva,hiter)
+~~~
+~~~ sdparse
+Sam sem bil zmeraj mal živčen , kar se drog tiče .
+parataxis(živčen,tiče)
+~~~
+
+##### novi-elipse
+~~~ sdparse
+Naklonjena so vprašanju vlaganj in prevzemov na tujem .
+nmod(prevzemov,tujem)
+case(tujem,na)
+~~~
+~~~ sdparse
+To pa je pomenilo vstajanje ob dveh .
+nmod(vstajanje,dveh)
+case(dveh,ob)
+~~~
+
+~~~ sdparse
+Delničarji so večinoma potrdili predlagane sklepe , marsikje pa tudi ne v celoti .
+parataxis(potrdili,ne)
+orphan(ne,marsikje)
+orphan(ne,pa)
+orphan(ne,tudi)
+orphan(ne,celoti)
+case(celoti,v)
+punct(ne,,)
+~~~
