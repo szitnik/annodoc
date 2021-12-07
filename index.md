@@ -1879,3 +1879,20 @@ conj(pet,deset)
 punct(deset,do)
 nummod(centimetrov,pet)
 ~~~
+
+##### novi-nummod
+~~~ sdparse
+Bojazni , ki so v desetletju pred 1914 zastrupljale evropsko atmosfero .
+case(1914,pred)
+nmod(desetletju,1914)
+~~~
+~~~ sdparse
+Novomeške odbojkarice so se z zmago nad Celjem s 3:1 uvrstile v končnico .
+case(3:1,s)
+nmod(zmago,3:1)
+~~~
+~~~ sdparse
+V 7270 tiči tehnologija , ki jo slovenski ponudniki mobilnih signalov še ne ponujajo . 
+case(7220,V)
+obl(tiči,7270)
+~~~
