@@ -1940,3 +1940,56 @@ orphan(ne,celoti)
 case(celoti,v)
 punct(ne,,)
 ~~~
+
+
+##### novi-prim-vezniki
+~~~ sdparse
+Spal je , kot da se ni nič zgodilo .
+advcl(Spal,zgodilo)
+mark(zgodilo,kot)
+fixed(kot,da)
+~~~
+~~~ sdparse
+Spal je kot dojenček .
+obl(Spal,dojenček)
+case(dojenček,kot)
+~~~
+~~~ sdparse
+kot odrasli prvorojenci potrebujejo manj spodbude
+obl(potrebujejo,odrasli)
+case(odrasli,kot)
+~~~
+
+##### novi-nedoločniki
+
+[PRIMER Alverstad je videti šokiran]
+[PRIMER Stolpnica je bila videti kot avtocesta v nebo]
+
+
+#### T: od-do
+[PRIMER: Potrebno je od široke baze idej na koncu priti do prave kakovosti izdelka.]
+PRIMER: Z MNZ RS smo poslovali od septembra 1991 do marca 1992.
+[PRIMER: primer za Prireditev bodo začeli s sprevodo od sedeža Turistice do Lucije]
+PRIMER: zvrstili so s v obdobju od padca Beneške republike do dunajskega kongresa
+
+[PRIMER Brizgači lahko živijo od 5 do 10 let]
+[PRIMER Policisti so od 2. Do 9. Septembra prejeli 650 tujcev.]
+[PRIMER Vabe postavimo v globino od 5 do 15 cm]
+[PRIMER Od 40 do 50 odstotkov slovenskega gospodarstva je v lasti države].
+
+
+-	Zveze, kjer do nimamo (npr. stane 5 do 10 eurov). 874, 9766: res conj?? – glej conj 
+-	Od x pa do y 11136, 4184 - cc
+	
+#### T: neprojektivnost
+[PRIMER] Jeza je pri otrocih pogosto čustvo
+[PRIMER] Jeza je pri otrocih pogostejše čustvo kot strah
+
+•	Nedoločniki z xcomp in csubj (primer 201, »Namesto tega naju prične pražiti sonce), acl (nikamor nimam namena odpotovat)
+•	Povedkovi prilastki z acl oz. advcl (palico držimo iztegnjeno)
+•	cc:preconj (221)
+•	primerjave iz lastnosti z obl in advcl (148)
+•	stavki, ki se vrivajo med dele stavčnih členov (ljubi Boga (kolikor ga spozna), sebe in bližnjega
+•	merni prislov pred predložno zvezo s števnikom (npr. kar v 40 odstotkih podjetij, točno ob 15. Uri)
+•	pristavki z appos, ki jih od svoje naveznice ločujejo druge besedne vrste
+
