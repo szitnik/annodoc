@@ -1814,3 +1814,31 @@ nsubj(pegaste,plavuti)
 advmod(pegaste,pa)
 advmod(pegaste,rumeno)
 ~~~
+
+#### T: pojasnjevalne strukture
+
+#### Novi primeri (ki jih zaradi številčenja premaknili pred izidom smernic)
+
+##### novi-advmod
+~~~ sdparse
+Do takrat mu niso ponudili niti pijače .
+advmod(ponudili,takrat)
+case(takrat,Do)
+~~~
+~~~ sdparse
+Dobiček družbe bo znašal približno 75 milijonov dolarjev .
+advmod(75,približno)
+nummod(milijonov,75)
+~~~
+~~~ sdparse
+Neznanec je svoj protest poslal na kar 46.000 internetnih naslovov .
+advmod(46.000,kar)
+nummod(naslovov,46.000)
+case(naslovov,na)
+~~~
+~~~ sdparse
+Obseg sredstev se je povečal kar za 555 milijonov .
+advmod(555,kar)
+nummod(milijonov,555)
+case(milijonov,za)
+~~~
