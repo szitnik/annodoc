@@ -1896,3 +1896,9 @@ V 7270 tiči tehnologija , ki jo slovenski ponudniki mobilnih signalov še ne po
 case(7220,V)
 obl(tiči,7270)
 ~~~
+
+##### novi-obl
+~~~ sdparse
+Potem pa le pazi name .
+obl(pazi,name)
+~~~
