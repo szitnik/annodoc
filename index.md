@@ -1842,3 +1842,40 @@ advmod(555,kar)
 nummod(milijonov,555)
 case(milijonov,za)
 ~~~
+
+##### novi-conj
+~~~ sdparse
+Na ogled so preša , panji , vosek itd.
+conj(preša,panji)
+conj(preša,vosek)
+conj(preša,panji)
+conj(preša,itd.)
+~~~
+
+##### novi-conj
+~~~ sdparse
+Na ogled so preša , panji , vosek itd.
+conj(preša,panji)
+conj(preša,vosek)
+conj(preša,panji)
+conj(preša,itd.)
+~~~
+
+
+~~~ sdparse
+Lahko je spal deset , dvanajst ur .
+conj(deset,dvanajst)
+nummod(ur,deset)
+punct(dvanajst,,)
+~~~
+~~~ sdparse
+Vnema učitelja Bogdana Žolnirja ( 1908 - 1998 )
+conj(1908,1998)
+punct(1998,-)
+~~~
+~~~ sdparse
+Desno roko za pet do deset centimetrov dvignite proti stropu .
+conj(pet,deset)
+punct(deset,do)
+nummod(centimetrov,pet)
+~~~
