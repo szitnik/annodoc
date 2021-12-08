@@ -2100,7 +2100,7 @@ punct(čustvo,.)
 ~~~ sdparse
 Ljubi Boga ( kolikor ga pozna ) , sebe in bližnjega .
 conj(Boga,sebe)
-conj(Boga,bližnjega
+conj(Boga,bližnjega)
 obj(Ljubi,Boga)
 advcl(Ljubi,pozna)
 ~~~
