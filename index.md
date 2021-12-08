@@ -1862,7 +1862,7 @@ punct(1998,-)
 ~~~ sdparse
 Desno roko za pet do deset centimetrov dvignite proti stropu .
 conj(pet,deset)
-punct(deset,do)
+cc(deset,do)
 nummod(centimetrov,pet)
 ~~~
 
