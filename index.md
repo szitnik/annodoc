@@ -2025,19 +2025,12 @@ nummod(cm,10)
 ~~~
 ~~~ sdparse
 Od 40 do 50 odstotkov slovenskega gospodarstva je v lasti države .
-case(40,od)
+case(40,Od)
 nmod(odstotkov,40)
 case(50,do)
 nummod(odstotkov,50)
 ~~~
 
-~~~ sdparse
-Od 40 do 50 odstotkov slovenskega gospodarstva je v lasti države .
-case(40,od)
-nmod(odstotkov,40)
-case(50,do)
-nummod(odstotkov,50)
-~~~
 
 ~~~ sdparse
 Desno roko za pet do deset centimetrov dvignite proti stropu .
@@ -2090,7 +2083,7 @@ punct(nimam,.)
 ~~~ sdparse
 Palico držimo iztegnjeno .
 acl(Palico,iztegnjeno)
-obj(držimo,palico)
+obj(držimo,Palico)
 punct(držimo,.)
 ~~~
 ~~~ sdparse
@@ -2105,7 +2098,7 @@ case(strah,kot)
 punct(čustvo,.)
 ~~~
 ~~~ sdparse
-Ljubi Boga (kolikor ga pozna) , sebe in bližnjega .
+Ljubi Boga ( kolikor ga pozna ) , sebe in bližnjega .
 conj(Boga,sebe)
 conj(Boga,bližnjega
 obj(Ljubi,Boga)
