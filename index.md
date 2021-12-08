@@ -1836,28 +1836,14 @@ advmod(46.000,kar)
 nummod(naslovov,46.000)
 case(naslovov,na)
 ~~~
-~~~ sdparse
-Obseg sredstev se je povečal kar za 555 milijonov .
-advmod(555,kar)
-nummod(milijonov,555)
-case(milijonov,za)
-~~~
+
+
 
 ##### novi-conj
 ~~~ sdparse
 Na ogled so preša , panji , vosek itd.
 conj(preša,panji)
 conj(preša,vosek)
-conj(preša,panji)
-conj(preša,itd.)
-~~~
-
-##### novi-conj
-~~~ sdparse
-Na ogled so preša , panji , vosek itd.
-conj(preša,panji)
-conj(preša,vosek)
-conj(preša,panji)
 conj(preša,itd.)
 ~~~
 
@@ -1890,10 +1876,12 @@ nmod(desetletju,1914)
 Novomeške odbojkarice so se z zmago nad Celjem s 3:1 uvrstile v končnico .
 case(3:1,s)
 nmod(zmago,3:1)
+nmod(zmago,Celjem)
+case(Celjem,nad)
 ~~~
 ~~~ sdparse
 V 7270 tiči tehnologija , ki jo slovenski ponudniki mobilnih signalov še ne ponujajo . 
-case(7220,V)
+case(7270,V)
 obl(tiči,7270)
 ~~~
 
@@ -1912,10 +1900,14 @@ obj(obtožujeta,drugega)
 ~~~ sdparse
 Kar zadeva zmogljivost , je bil računalnik hiter .
 parataxis(zadeva,hiter)
+cop(hiter,bil)
+aux(hiter,je)
 ~~~
 ~~~ sdparse
 Sam sem bil zmeraj mal živčen , kar se drog tiče .
 parataxis(živčen,tiče)
+cop(živčen,bil)
+aux(živčen,sem)
 ~~~
 
 ##### novi-elipse
@@ -1944,15 +1936,15 @@ punct(ne,,)
 
 ##### novi-prim-vezniki
 ~~~ sdparse
+Spal je kot dojenček .
+obl(Spal,dojenček)
+case(dojenček,kot)
+~~~
+~~~ sdparse
 Spal je , kot da se ni nič zgodilo .
 advcl(Spal,zgodilo)
 mark(zgodilo,kot)
 fixed(kot,da)
-~~~
-~~~ sdparse
-Spal je kot dojenček .
-obl(Spal,dojenček)
-case(dojenček,kot)
 ~~~
 ~~~ sdparse
 kot odrasli prvorojenci potrebujejo manj spodbude
@@ -1961,35 +1953,179 @@ case(odrasli,kot)
 ~~~
 
 ##### novi-nedoločniki
-
-[PRIMER Alverstad je videti šokiran]
-[PRIMER Stolpnica je bila videti kot avtocesta v nebo]
-
+~~~ sdparse
+Alverstead je videti šokiran .
+cop(videti,je)
+nsubj(videti,Alverstead)
+acl(Alverstead,šokiran)
+~~~
+~~~ sdparse
+Stolpnica je bila videti kot avtocesta v nebo .
+cop(videti,bila)
+aux(videti,je)
+nsubj(videti,Stolpnica)
+obl(videti,avtocesta)
+case(avtocesta,kot)
+~~~
 
 #### T: od-do
-[PRIMER: Potrebno je od široke baze idej na koncu priti do prave kakovosti izdelka.]
-PRIMER: Z MNZ RS smo poslovali od septembra 1991 do marca 1992.
-[PRIMER: primer za Prireditev bodo začeli s sprevodo od sedeža Turistice do Lucije]
-PRIMER: zvrstili so s v obdobju od padca Beneške republike do dunajskega kongresa
+~~~ sdparse
+Potrebno je od široke baze idej na koncu priti do prave kakovosti izdelka .
+obl(priti,idej)
+case(idej,od)
+obl(priti,kakovosti)
+case(kakovosti,do)
+~~~
+~~~ sdparse
+Z MNZ RS smo poslovali od septembra 1991 do marca 1992 .
+obl(poslovali,septembra)
+case(septembra,od)
+obl(poslovali,marca)
+case(marca,do)
+~~~
+~~~ sdparse
+Prireditev bodo začeli s sprevodom od sedeža Turistice do Lucije .
+nmod(sprevodom,sedeža)
+case(sedeža,od)
+nmod(sprevodom,Lucije)
+case(Lucije,do)
+~~~
+~~~ sdparse
+Zvrstili so s v obdobju od padca Beneške republike do dunajskega kongresa .
+nmod(obdobju,padca)
+case(padca,od)
+nmod(obdobju,kongresa)
+case(kongresa,do)
+~~~
 
-[PRIMER Brizgači lahko živijo od 5 do 10 let]
-[PRIMER Policisti so od 2. Do 9. Septembra prejeli 650 tujcev.]
-[PRIMER Vabe postavimo v globino od 5 do 15 cm]
-[PRIMER Od 40 do 50 odstotkov slovenskega gospodarstva je v lasti države].
 
+~~~ sdparse
+Brizgači lahko živijo od 5 do 10 let .
+obl(živijo,let)
+case(5,od)
+nmod(let,5)
+case(let,do)
+nummod(let,10)
+~~~
+~~~ sdparse
+Policisti so od 2. do 9. septembra prejeli 650 tujcev .
+obl(prejeli,septembra)
+case(2.,od)
+nmod(septembra,2.)
+case(septembra,do)
+nummod(septembra,9.)
+~~~
+~~~ sdparse
+Vabe postavimo v globino od 5 do 10 cm .
+nmod(globino,cm)
+case(5,od)
+nmod(cm,5)
+case(cm,do)
+nummod(cm,10)
+~~~
+~~~ sdparse
+Od 40 do 50 odstotkov slovenskega gospodarstva je v lasti države .
+case(40,od)
+nmod(odstotkov,40)
+case(50,do)
+nummod(odstotkov,50)
+~~~
 
--	Zveze, kjer do nimamo (npr. stane 5 do 10 eurov). 874, 9766: res conj?? – glej conj 
--	Od x pa do y 11136, 4184 - cc
+~~~ sdparse
+Od 40 do 50 odstotkov slovenskega gospodarstva je v lasti države .
+case(40,od)
+nmod(odstotkov,40)
+case(50,do)
+nummod(odstotkov,50)
+~~~
+
+~~~ sdparse
+Desno roko za pet do deset centimetrov dvignite proti stropu .
+conj(pet,deset)
+punct(deset,do)
+nummod(centimetrov,pet)
+~~~
+
 	
 #### T: neprojektivnost
-[PRIMER] Jeza je pri otrocih pogosto čustvo
-[PRIMER] Jeza je pri otrocih pogostejše čustvo kot strah
+~~~ sdparse
+Jeza je pri otrocih pogosto čustvo .
+nsubj(čustvo,Jeza)
+cop(čustvo,je)
+case(otrocih,pri)
+obl(čustvo,otrocih)
+amod(čustvo,pogosto)
+punct(čustvo,.)
+~~~
+~~~ sdparse
+Jeza je pri otrocih pogostejše čustvo kot strah .
+nsubj(čustvo,Jeza)
+cop(čustvo,je)
+case(otrocih,pri)
+obl(čustvo,otrocih)
+amod(čustvo,pogostejše)
+obl(pogostejše,strah)
+case(strah,kot)
+punct(čustvo,.)
+~~~
 
-•	Nedoločniki z xcomp in csubj (primer 201, »Namesto tega naju prične pražiti sonce), acl (nikamor nimam namena odpotovat)
-•	Povedkovi prilastki z acl oz. advcl (palico držimo iztegnjeno)
-•	cc:preconj (221)
-•	primerjave iz lastnosti z obl in advcl (148)
-•	stavki, ki se vrivajo med dele stavčnih členov (ljubi Boga (kolikor ga spozna), sebe in bližnjega
-•	merni prislov pred predložno zvezo s števnikom (npr. kar v 40 odstotkih podjetij, točno ob 15. Uri)
-•	pristavki z appos, ki jih od svoje naveznice ločujejo druge besedne vrste
+~~~ sdparse
+Podplati so se mi začeli lepiti na tla .
+xcomp(začeli,lepiti)
+nsubj(Podplati,začeli)
+aux(začeli,so)
+expl(lepiti,se)
+obj(lepiti,mi)
+obl(lepiti,tla)
+case(tla,na)
+~~~
+~~~ sdparse
+Nikamor nimam namena odpotovat .
+acl(namena,odpotovat)
+obj(nimam,namena)
+advmod(odpotovat,Nikamor)
+punct(nimam,.)
+~~~
+
+~~~ sdparse
+Palico držimo iztegnjeno .
+acl(Palico,iztegnjeno)
+obj(držimo,palico)
+punct(držimo,.)
+~~~
+~~~ sdparse
+Jeza je pri otrocih pogostejše čustvo kot strah .
+nsubj(čustvo,Jeza)
+cop(čustvo,je)
+case(otrocih,pri)
+obl(čustvo,otrocih)
+amod(čustvo,pogostejše)
+obl(pogostejše,strah)
+case(strah,kot)
+punct(čustvo,.)
+~~~
+~~~ sdparse
+Ljubi Boga (kolikor ga pozna) , sebe in bližnjega .
+conj(Boga,sebe)
+conj(Boga,bližnjega
+obj(Ljubi,Boga)
+advcl(Ljubi,pozna)
+~~~
+~~~ sdparse
+Obseg sredstev se je povečal kar za 555 milijonov .
+advmod(555,kar)
+nummod(milijonov,555)
+case(milijonov,za)
+~~~
+~~~ sdparse
+John Deere je pri proizvodnji traktorjev zelo avtonomen ( motorji , menjalniki ) . 
+cop(avtonomen,je)
+nsubj(avtonomen,John)
+obl(avtonomen,proizvodnji)
+appos(proizvodnji,motorji)
+conj(motorji,menjalniki)
+punct(motorji,()
+punct(motorji,))
+~~~
+
 
