@@ -2120,6 +2120,9 @@ conj(motorji,menjalniki)
 punct(motorji,()
 punct(motorji,))
 ~~~
+
+#### obl: vsi, prvi
+
 ~~~ sdparse
 Odmerki deksametazona so , kot se zdi , vsi enako učinkoviti .
 nsubj(učinkoviti,Odmerki)
