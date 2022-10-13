@@ -2120,5 +2120,21 @@ conj(motorji,menjalniki)
 punct(motorji,()
 punct(motorji,))
 ~~~
-
+~~~ sdparse
+Odmerki deksametazona so , kot se zdi , vsi enako učinkoviti .
+nsubj(učinkoviti,Odmerki)
+nmod(Odmerki,deksametazona)
+obl(učinkoviti,vsi)
+cop(učinkoviti,cop)
+~~~
+~~~ sdparse
+Zdravnik John Langdon Down je leta 1866 ta sindrom prvi opisal .
+nsubj(opisal,Zdravnik)
+obl(opisal,prvi)
+obj(opisal,sindrom)
+det(sindrom,ta)
+nmod(Zdravnik,John)
+flat:name(John,Langdon)
+flat:name(John,Down)
+~~~
 
