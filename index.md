@@ -2128,7 +2128,7 @@ Odmerki deksametazona so , kot se zdi , vsi enako učinkoviti .
 nsubj(učinkoviti,Odmerki)
 nmod(Odmerki,deksametazona)
 obl(učinkoviti,vsi)
-cop(učinkoviti,cop)
+cop(učinkoviti,so)
 ~~~
 ~~~ sdparse
 Zdravnik John Langdon Down je leta 1866 ta sindrom prvi opisal .
