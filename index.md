@@ -2141,6 +2141,9 @@ nmod(Zdravnik,John)
 flat:name(John,Langdon)
 flat:name(John,Down)
 ~~~
+
+#### večbesedna tujejezična lastna imena
+
 ~~~ sdparse
 Angry Birds je franšiza videoiger .
 nmod(Angry,Birds)
