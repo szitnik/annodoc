@@ -2121,6 +2121,7 @@ punct(motorji,()
 punct(motorji,))
 ~~~
 
+#### Dodatki v smernice oktober 2022
 #### obl: vsi, prvi
 
 ~~~ sdparse
@@ -2140,4 +2141,9 @@ nmod(Zdravnik,John)
 flat:name(John,Langdon)
 flat:name(John,Down)
 ~~~
-
+~~~ sdparse
+Angry Birds je franšiza videoiger .
+nmod(Angry,Birds)
+nsubj(franšiza,Angry)
+cop(franšiza,je)
+~~~
