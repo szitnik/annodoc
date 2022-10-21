@@ -2150,3 +2150,11 @@ nmod(Angry,Birds)
 nsubj(franšiza,Angry)
 cop(franšiza,je)
 ~~~
+
+#### expl: rodilniški zaimki 
+
+~~~ sdparse
+Je ni substance , pri kateri bi bila raziskovalna dejavnost tako silovita .
+expl(ni,Je)
+nsubj(ni,substance)
+~~~
