@@ -2181,11 +2181,11 @@ advcl(Nimam,moram)
 #### kar v vezniški vlogi kot advmod
 
 ~~~ sdparse
-V najmehkejših copatih , kar ste si jih kdaj nadeli .
-advmod(nadeli,kar)
+Tokratna kampanja je bila ena najdaljših , kar pomni .
+advmod(pomni,kar)
 ~~~
 
 ~~~ sdparse
-Tokratna kampanja je bila ena najdaljših , kar pomni .
-advmod(pomni,kar)
+V najmehkejših copatih , kar ste si jih kdaj nadeli .
+advmod(nadeli,kar)
 ~~~
