@@ -2158,3 +2158,22 @@ Je ni substance , pri kateri bi bila raziskovalna dejavnost tako silovita .
 expl(ni,Je)
 nsubj(ni,substance)
 ~~~
+
+#### parataxis: popravek pri premem govoru
+
+~~~ sdparse
+takole se je glasil : » Ali mora kmet res vedno le ubogati ? «
+parataxis(glasil,mora)
+~~~
+
+~~~ sdparse
+» To je Victor , « je pojasnil Victor Riccio .
+parataxis(Victor-4,pojasnil)
+cop(Victor-4,je)
+~~~
+
+~~~ sdparse
+» Nimam Časa , « sem butasto bleknila , » ker moram na postajo .
+parataxis(Nimam,bleknila)
+advcl(Nimam,moram)
+~~~
