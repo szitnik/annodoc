@@ -1900,12 +1900,14 @@ obj(obtožujeta,drugega)
 ~~~ sdparse
 Kar zadeva zmogljivost , je bil računalnik hiter .
 parataxis(zadeva,hiter)
+nsubj(zadeva,Kar)
 cop(hiter,bil)
 aux(hiter,je)
 ~~~
 ~~~ sdparse
 Sam sem bil zmeraj mal živčen , kar se drog tiče .
 parataxis(živčen,tiče)
+nsubj(tiče,kar)
 cop(živčen,bil)
 aux(živčen,sem)
 ~~~
