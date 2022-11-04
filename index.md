@@ -2191,3 +2191,23 @@ advmod(pomni,kar)
 V najmehkejših copatih , kar ste si jih kdaj nadeli .
 advmod(nadeli,kar)
 ~~~
+
+#### biti + strah/groza/sram/...
+
+~~~ sdparse
+Vas ni prav nič strah ?
+nsubj(ni,strah)
+obj(ni,Vas)
+~~~
+
+~~~ sdparse
+Lahko te je ravno tako strah , če od spodaj gledaš zelo visoko .
+nsubj(je,strah)
+obj(je,te)
+~~~
+
+~~~ sdparse
+Pijanec , ki pije , da bi pozabil , da ga je sram , ker pije .
+nsubj(je,sram)
+obj(je,ga)
+~~~
