@@ -2211,3 +2211,31 @@ Pijanec , ki pije , da bi pozabil , da ga je sram , ker pije .
 nsubj(je,sram)
 obj(je,ga)
 ~~~
+
+#### pogoste napake označevalnika
+
+narobe:
+~~~ sdparse
+Strategija določa cilje financiranja ESS , ki si jih deloma ali v celoti deli z drugimi strukturnimi skladi .
+acl(financiranja,deli)
+mark(deli,ki)
+~~~
+
+~~~ sdparse
+Ta v primeru potrebe po svoji presoji napoti bolnika k specialistu .
+nmod(potrebe,presoji)
+case(presoji,po)
+~~~
+
+pravilno:
+~~~ sdparse
+Strategija določa cilje financiranja ESS , ki si jih deloma ali v celoti deli z drugimi strukturnimi skladi .
+acl(cilje,deli)
+mark(deli,ki)
+~~~
+
+~~~ sdparse
+Ta v primeru potrebe po svoji presoji napoti bolnika k specialistu .
+obl(napoti,presoji)
+case(presoji,po)
+~~~
