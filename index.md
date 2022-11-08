@@ -2227,6 +2227,12 @@ nmod(potrebe,presoji)
 case(presoji,po)
 ~~~
 
+~~~ sdparse
+Ima pa tudi ambicije sodelovati za kreacijo oblek .
+advmod(Ima,tudi)
+obj(Ima,ambicije)
+~~~
+
 pravilno:
 ~~~ sdparse
 Strategija določa cilje financiranja ESS , ki si jih deloma ali v celoti deli z drugimi strukturnimi skladi .
@@ -2238,4 +2244,10 @@ mark(deli,ki)
 Ta v primeru potrebe po svoji presoji napoti bolnika k specialistu .
 obl(napoti,presoji)
 case(presoji,po)
+~~~
+
+~~~ sdparse
+Ima pa tudi ambicije sodelovati za kreacijo oblek .
+advmod(ambicije,tudi)
+obj(Ima,ambicije)
 ~~~
