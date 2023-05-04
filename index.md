@@ -2245,8 +2245,9 @@ advmod(ambicije,tudi)
 obj(Ima,ambicije)
 ~~~
 
-#### posebnosti govorjenega jezika
+### posebnosti govorjenega jezika
 
+#### ločila
 ~~~ sdparse
 kje pa dobim podatke za tujino ?
 punct(dobim,?)
@@ -2257,4 +2258,38 @@ kaj ? a nama je ušlo tole zdajle ?
 punct(kaj,?-2)
 punct(ušlo,?-9)
 parataxis(kaj,ušlo)
+~~~
+
+
+#### elipse
+~~~ sdparse
+pri nas pa občasno
+orphan(nas,pa)
+orphan(nas,občasno)
+case(nas,pri)
+~~~
+
+~~~ sdparse
+kam pa ?
+orphan(kam,pa)
+punct(kam,?)
+~~~
+
+~~~ sdparse
+tudi Francozinja v težavah
+orphan(Francozinja,težavah)
+advmod(Francozinja,tudi)
+case(težavah,v)
+~~~
+
+
+~~~ sdparse
+upam da
+ccomp (upam,da)
+~~~
+
+~~~ sdparse
+zakaj ne ?
+advmod(ne,zakaj)
+punct(ne,?)
 ~~~
