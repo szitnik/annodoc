@@ -2282,6 +2282,13 @@ advmod(Francozinja,tudi)
 case(težavah,v)
 ~~~
 
+~~~ sdparse
+in pol jaz njemu
+orphan(jaz,pol)
+orphan(jaz,njemu)
+cc(jaz,in)
+~~~
+
 
 ~~~ sdparse
 upam da
