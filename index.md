@@ -2254,7 +2254,7 @@ punct(dobim,?)
 
 ~~~ sdparse
 kaj ? a nama je ušlo tole zdajle ?
-punct(dobim,?-2)
+punct(kaj,?-2)
 punct(ušlo,?-9)
 parataxis(kaj,ušlo)
 ~~~
