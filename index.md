@@ -1,15 +1,11 @@
 ---
 layout: entry
-title: Navodila za označevanje povezav po lastni želji :)
+title: Navodila za označevanje povezav
 ---
 
-Tu so moja super-duper navodila za označevanje
+<!--- Kaja začasno zakomentirala zaradi avtomatskega številčenja primerov, ki sledijo
 
 #### Označevanje povezave ITI V TRGOVINO
-
-Tu prikazujemo način označevanja povezav iti v trgovino
-
-<!--- Kaja začasno zakomentirala zaradi avtomatskega številčenja primerov, ki sledijo
 
 ~~~ ann
 Janez Novak je šel v Mercator, kjer imajo slastne žemlje, polnjene s šunko, sirom in kumaricami - njami!
@@ -18,9 +14,6 @@ T2 ORGANIZATION 21 29 Mercator
 R1 ITI_V_TRGOVINO Arg1:T1 Arg2:T2
 ~~~
 
-
-
-To je zelo specifična povezava, ki vpliva na zelo velijo jezikovnih značilnosti, o katerih se bomo razpisali v nadaljevanju .... 
 
 ~~~ sdparse
 Premišljeval/VERB je/AUX o/ADP Jayu/PROPN in/CCONJ njegovih/DET prijateljih/NOUN ,/PUNCT ko/SCONJ je/AUX prečkal/VERB temačno/ADJ parkirišče/NOUN ./PUNCT
@@ -2250,4 +2243,18 @@ case(presoji,po)
 Ima pa tudi ambicije sodelovati za kreacijo oblek .
 advmod(ambicije,tudi)
 obj(Ima,ambicije)
+~~~
+
+#### posebnosti govorjenega jezika
+
+~~~ sdparse
+kje pa dobim podatke za tujino ?
+punct(dobim,?)
+~~~
+
+~~~ sdparse
+kaj ? a nama je ušlo tole zdajle ?
+punct(dobim,?-2)
+punct(ušlo,?-9)
+parataxis(kaj,ušlo)
 ~~~
