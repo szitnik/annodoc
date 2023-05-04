@@ -2290,6 +2290,6 @@ ccomp (upam,da)
 
 ~~~ sdparse
 zakaj ne ?
-advmod(ne,zakaj)
+orphan(ne,zakaj)
 punct(ne,?)
 ~~~
