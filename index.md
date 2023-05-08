@@ -2300,3 +2300,42 @@ zakaj ne ?
 orphan(ne,zakaj)
 punct(ne,?)
 ~~~
+
+#### parataxis:discourse
+~~~ sdparse
+mislim imamo zajtrk in imamo večerjo ne
+parataxis:discourse (imamo-2,mislim)
+obj(imamo-2,zajtrk)
+cc(imamo-5,in)
+obj(imamo-5,večerjo)
+discourse(imamo-2,ne)
+~~~
+
+#### discourse:filler
+~~~ sdparse
+tukaj je so stvari eee zelo jasne ne
+discourse(jasne,ne)
+advmod(jasne,zelo)
+discourse:filler(jasne,eee)
+nsubj(jasne,stvari)
+cop(jasne,so)
+reparandum(so,je)
+advmod(jasne,tukaj)
+~~~
+
+
+
+
+#### neprojektivnost-dopustna
+
+eee to te mora pač eee resnično eee zanimati
+
+~~~ sdparse
+ja kaj pa mislim glede recimo hrane
+discourse(kaj,ja)
+advmod(kaj,pa)
+parataxis:discourse(kaj,mislim)
+case(hrane,glede)
+orphan(kaj,hrane)
+parataxis:discourse(kaj,recimo)
+~~~
