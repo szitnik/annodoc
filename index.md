@@ -2401,19 +2401,21 @@ obj(dala,jabolko)
 ~~~
 ~~~ sdparse
 Jabolko je mama dala Marini .
-nsubj(dala,Mama)
+nsubj(dala,mama)
 iobj(dala,Marini)
-obj(dala,jabolko)
-~~~
-~~~ sdparse
-skrb velika
-amod(skrb,velika)
+obj(dala,Jabolko)
 ~~~
 
 ~~~ sdparse
 velika skrb
 amod(skrb,velika)
 ~~~
+~~~ sdparse
+skrb velika
+amod(skrb,velika)
+~~~
+
+
 
 ~~~ sdparse
 imam pa tudi debelo ono uro jekleno
@@ -2425,6 +2427,9 @@ amod(uro,jekleno)
 
 ~~~ sdparse
 torej volilni molk tega v združenih državah ne poznajo
+discourse(poznajo,torej)
+case(državah,v)
+amod(državah,združenih)
 dislocated(poznajo,molk)
 amod(molk,volilni)
 obj(poznajo,tega)
