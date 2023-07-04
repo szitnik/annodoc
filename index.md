@@ -2442,7 +2442,8 @@ det(teme,ene)
 ~~~
 ~~~ sdparse
 zdaj po tej ta novi diplomi je drugače
-det(novi,diplomi)
+det(diplomi,ta)
+amod(diplomi,novi)
 ~~~
 
 
@@ -2452,7 +2453,4 @@ dva cela pet odstotka
 conj(dva,pet)
 cc(pet,cela)
 ~~~
-~~~ sdparse
-zdaj po tej ta novi diplomi je drugače
-det(novi,diplomi)
-~~~
+
