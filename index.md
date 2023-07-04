@@ -2323,8 +2323,49 @@ reparandum(so,je)
 advmod(jasne,tukaj)
 ~~~
 
+#### navidezni odvisniki (advcl)
+~~~ sdparse
+predavala bo gospa doktor ki je kolikor jaz vem edina v sloveniji
+mark(edina,ki)
+cop(edina,je)
+advcl(edina,vem)
+mark(vem,kolikor)
+nsubj(vem,jaz)
+~~~
 
 
+#### nadaljevalniki (conj)
+~~~ sdparse
+uporaba telefona za telefoniranje in podobno
+conj(telefoniranje,podobno)
+cc(podobno,in)
+~~~
+
+~~~ sdparse
+že se pripravljamo na pust, veliko noč in tako dalje
+conj(pust,noč)
+conj(
+~~~
+
+~~~ sdparse
+špago sem mogel omotati pa take
+conj(mogel,take)
+cc(take,pa)
+~~~
+
+~~~ sdparse
+kako orož- orožje pa to
+det(orožje,kako)
+reparandum(orožje,orož-)
+conj(orožje,to)
+cc(to,pa)
+~~~
+
+~~~ sdparse
+kaj ga še kar geekaš ali kaj ?
+conj(geekaš,kaj)
+cc(kaj,ali)
+~~~
 
 #### neprojektivnost-dopustna
 
