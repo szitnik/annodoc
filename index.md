@@ -2422,3 +2422,10 @@ amod(uro,debelo)
 det(uro,ono)
 amod(uro,jekleno)
 ~~~
+
+~~~ sdparse
+torej volilni molk tega v združenih državah ne poznajo
+dislocated(poznajo,molk)
+amod(molk,volilni)
+obj(poznajo,tega)
+~~~
