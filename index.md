@@ -2344,7 +2344,9 @@ cc(podobno,in)
 ~~~ sdparse
 že se pripravljamo na pust, veliko noč in tako dalje
 conj(pust,noč)
-conj(
+conj(pust,in)
+fixed(in,tako)
+fixed(in,dalje)
 ~~~
 
 ~~~ sdparse
@@ -2363,8 +2365,8 @@ cc(to,pa)
 
 ~~~ sdparse
 kaj ga še kar geekaš ali kaj ?
-conj(geekaš,kaj)
-cc(kaj,ali)
+conj(geekaš,kaj-7)
+cc(kaj-7,ali)
 ~~~
 
 #### neprojektivnost-dopustna
