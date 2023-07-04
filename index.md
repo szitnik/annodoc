@@ -2444,3 +2444,15 @@ det(teme,ene)
 zdaj po tej ta novi diplomi je drugače
 det(novi,diplomi)
 ~~~
+
+
+#### cela, celih (cc, conj)
+~~~ sdparse
+dva cela pet odstotka
+conj(dva,pet)
+cc(pet,cela)
+~~~
+~~~ sdparse
+zdaj po tej ta novi diplomi je drugače
+det(novi,diplomi)
+~~~
