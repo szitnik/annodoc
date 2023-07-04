@@ -2336,14 +2336,14 @@ nsubj(vem,jaz)
 
 #### nadaljevalniki (conj)
 ~~~ sdparse
-preveč organske snovi pomeni gnitje, slabše prezimovanje in podobno
+preveč organske snovi pomeni gnitje , slabše prezimovanje in podobno
 conj(gnitje,prezimovanje)
 conj(gnitje,podobno)
 cc(podobno,in)
 ~~~
 
 ~~~ sdparse
-že se pripravljamo na pust, veliko noč in tako dalje
+že se pripravljamo na pust , veliko noč in tako dalje
 conj(pust,noč)
 conj(pust,in)
 fixed(in,tako)
