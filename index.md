@@ -2336,8 +2336,9 @@ nsubj(vem,jaz)
 
 #### nadaljevalniki (conj)
 ~~~ sdparse
-uporaba telefona za telefoniranje in podobno
-conj(telefoniranje,podobno)
+preveč organske snovi pomeni gnitje, slabše prezimovanje in podobno
+conj(gnitje,prezimovanje)
+conj(gnitje,podobno)
 cc(podobno,in)
 ~~~
 
