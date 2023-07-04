@@ -2390,3 +2390,35 @@ case(hrane,glede)
 orphan(kaj,hrane)
 parataxis:discourse(kaj,recimo)
 ~~~
+
+#### atipicni besedni red
+
+~~~ sdparse
+Mama je Marini dala jabolko .
+nsubj(dala,Mama)
+iobj(dala,Marini)
+obj(dala,jabolko)
+~~~
+~~~ sdparse
+Jabolko je mama dala Marini .
+nsubj(dala,Mama)
+iobj(dala,Marini)
+obj(dala,jabolko)
+~~~
+~~~ sdparse
+skrb velika
+amod(skrb,velika)
+~~~
+
+~~~ sdparse
+velika skrb
+amod(skrb,velika)
+~~~
+
+~~~ sdparse
+imam pa tudi debelo ono uro jekleno
+obj(imam,uro)
+amod(uro,debelo)
+det(uro,ono)
+amod(uro,jekleno)
+~~~
