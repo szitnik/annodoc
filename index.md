@@ -2434,3 +2434,13 @@ dislocated(poznajo,molk)
 amod(molk,volilni)
 obj(poznajo,tega)
 ~~~
+
+#### govor - določilniki
+~~~ sdparse
+zdaj ste se dotaknili ene teme ki je letos aktualna
+det(teme,ene)
+~~~
+~~~ sdparse
+zdaj po tej ta novi diplomi je drugače
+det(novi,diplomi)
+~~~
