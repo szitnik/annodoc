@@ -2370,6 +2370,13 @@ conj(geekaš,kaj-7)
 cc(kaj-7,ali)
 ~~~
 
+#### asidentična (conj)
+~~~ sdparse
+preden zapusti vrtec šolo dijaški dom
+conj(vrtec,šolo)
+conj(vrtec,dom)
+~~~
+
 #### neprojektivnost-dopustna
 
 eee to te mora pač eee resnično eee zanimati
