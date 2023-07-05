@@ -2454,3 +2454,49 @@ conj(dva,pet)
 cc(pet,cela)
 ~~~
 
+#### reparandum - zakljucene
+~~~ sdparse
+huh eem da da zožamo nekatere eee teritorije ne
+reparandum(da-4,da-3)
+mark(zožamo,da-4)
+~~~
+
+~~~ sdparse
+da so te eee ti stroški čim manjši
+mark(manjši,da)
+cop(manjši,so)
+nsubj(manjši,stroški)
+advmod(manjši,čim)
+reparandum(ti,te)
+det(stroški,ti)
+~~~
+
+~~~ sdparse
+huh eem da da zožamo nekatere eee teritorije ne
+reparandum(da-4,da-3)
+mark(zožamo,da-4)
+~~~
+
+
+#### reparandum - nezakljucene
+
+~~~ sdparse
+če prav če sem prav razumel
+reparandum(razumel,prav-2)
+mark(prav-2,če-1)
+mark(razumel,če-3)
+aux(razumel,sem)
+advmod(razumel,prav-5)
+~~~
+
+~~~ sdparse
+ne daj naj požri naj požre tisto
+
+~~~
+
+#### parataxis:restart
+~~~ sdparse
+huh eem da da zožamo nekatere eee teritorije ne
+reparandum(da-4,da-3)
+mark(zožamo,da-4)
+~~~
