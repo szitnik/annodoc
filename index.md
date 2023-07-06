@@ -2471,14 +2471,14 @@ reparandum(ti,te)
 det(stroški,ti)
 ~~~
 
-~~~ sdparse
-huh eem da da zožamo nekatere eee teritorije ne
-reparandum(da-4,da-3)
-mark(zožamo,da-4)
-~~~
-
 
 #### reparandum - nezakljucene
+
+~~~ sdparse
+eem kako orož- orožje pa to
+reparandum(orožje,orož-)
+det(orožje,kako)
+~~~
 
 ~~~ sdparse
 če prav če sem prav razumel
@@ -2491,12 +2491,21 @@ advmod(razumel,prav-5)
 
 ~~~ sdparse
 ne daj naj požri naj požre tisto
-
+discourse(požre,ne)
+parataxis:discourse(požre,daj)
+advmod(požri,naj-3)
+reparandum(požre,požri)
+advmod(požre,naj-5)
+obj(požre,tisto)
 ~~~
 
 #### parataxis:restart
 ~~~ sdparse
-huh eem da da zožamo nekatere eee teritorije ne
-reparandum(da-4,da-3)
-mark(zožamo,da-4)
+slika kaže kako so ta človek sedi
+parataxis:restart (kaže,sedi)
+~~~
+
+~~~ sdparse
+kaj si zdaj pravkar katero črto boš narisala
+parataxis:restart (si,narisala)
 ~~~
