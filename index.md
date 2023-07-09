@@ -2447,11 +2447,12 @@ amod(diplomi,novi)
 ~~~
 
 
-#### cela, celih (cc, conj)
+#### cela, celih (flat)
 ~~~ sdparse
 dva cela pet odstotka
-conj(dva,pet)
-cc(pet,cela)
+flat(dva,cela)
+flat(dva,pet)
+nummod(odstotka,dva)
 ~~~
 
 #### reparandum - zakljucene
