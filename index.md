@@ -2323,6 +2323,35 @@ reparandum(so,je)
 advmod(jasne,tukaj)
 ~~~
 
+~~~ sdparse
+eee danes bom predstavil predavanje eee skupaj z očetom
+discourse:filler(predstavil,eee-1)
+discourse:filler(predstavil,eee-6)
+~~~
+
+~~~ sdparse
+ali imate eee eee sekanca ali imate eee pelete ne
+cc:preconj(imate-2,ali-1)
+discourse:filler(imate-2,eee-3)
+discourse:filler(imate-3,eee-4)
+obj(imate-2,sekanca)
+conj(imate-2,imate-7)
+cc(imate-7,ali-6)
+obj(imate-7,pelete)
+discourse(imate-2,ne)
+discourse:filler(imate-2,eee-8)
+~~~
+
+~~~ sdparse
+eee to te mora pač eee resnično eee zanimati
+discourse:filler(mora,eee-1)
+advmod(mora,pač)
+xcomp(mora,zanimati)
+advmod(zanimati,resnično)
+discourse:filler(mora,eee-6)
+discourse:filler(mora,eee-8)
+~~~
+
 #### navidezni odvisniki (advcl)
 ~~~ sdparse
 predavala bo gospa doktor ki je kolikor jaz vem edina v sloveniji
@@ -2390,6 +2419,17 @@ case(hrane,glede)
 orphan(kaj,hrane)
 parataxis:discourse(kaj,recimo)
 ~~~
+
+~~~ sdparse
+eee to te mora pač eee resnično eee zanimati
+discourse:filler(mora,eee-1)
+advmod(mora,pač)
+xcomp(mora,zanimati)
+advmod(zanimati,resnično)
+discourse:filler(mora,eee-6)
+discourse:filler(mora,eee-8)
+~~~
+
 
 #### atipicni besedni red
 
