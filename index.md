@@ -2330,16 +2330,14 @@ discourse:filler(predstavil,eee-6)
 ~~~
 
 ~~~ sdparse
-ali imate eee eee sekanca ali imate eee pelete ne
-cc:preconj(imate-2,ali-1)
-discourse:filler(imate-2,eee-3)
-discourse:filler(imate-3,eee-4)
-obj(imate-2,sekanca)
-conj(imate-2,imate-7)
-cc(imate-7,ali-6)
-obj(imate-7,pelete)
-discourse(imate-2,ne)
-discourse:filler(imate-2,eee-8)
+da so te eee ti stroški čim manjši
+mark(manjši,da)
+cop(manjši,so)
+nsubj(manjši,stroški)
+advmod(manjši,čim)
+reparandum(ti,te)
+det(stroški,ti)
+discourse:filler(manjši,eee)
 ~~~
 
 ~~~ sdparse
@@ -2408,8 +2406,6 @@ conj(vrtec,dom)
 
 #### neprojektivnost-dopustna
 
-eee to te mora pač eee resnično eee zanimati
-
 ~~~ sdparse
 ja kaj pa mislim glede recimo hrane
 discourse(kaj,ja)
@@ -2428,6 +2424,14 @@ xcomp(mora,zanimati)
 advmod(zanimati,resnično)
 discourse:filler(mora,eee-6)
 discourse:filler(mora,eee-8)
+~~~
+
+~~~ sdparse
+predavala gos- bo gospa doktor
+nsubj(predavala,gospa)
+aux(predavala,bo)
+reparandum(gospa,gos-)
+nmod(gospa,doktor)
 ~~~
 
 
@@ -2495,12 +2499,7 @@ flat(dva,pet)
 nummod(odstotka,dva)
 ~~~
 
-#### reparandum - zakljucene
-~~~ sdparse
-huh eem da da zožamo nekatere eee teritorije ne
-reparandum(da-4,da-3)
-mark(zožamo,da-4)
-~~~
+#### reparandum
 
 ~~~ sdparse
 da so te eee ti stroški čim manjši
@@ -2510,6 +2509,50 @@ nsubj(manjši,stroški)
 advmod(manjši,čim)
 reparandum(ti,te)
 det(stroški,ti)
+~~~
+
+~~~ sdparse
+eem kako orož- orožje pa to
+reparandum(orožje,orož-)
+det(orožje,kako)
+discourse:filler(orožje,eem)
+conj(orožje,to)
+cc(to,pa)
+~~~
+
+~~~ sdparse
+ste zadovoljni s stanoval- s svojimi stanovalci
+reparandum(stanovalci,stanoval-)
+case(stanoval-,s-3)
+case(stanovalci,s-5)
+amod(stanovalci,svojimi)
+obl(zadovoljni,stanovalci)
+~~~
+
+~~~ sdparse
+huh eem da da zožamo nekatere eee teritorije ne
+reparandum(da-4,da-3)
+mark(zožamo,da-4)
+~~~
+
+
+
+~~~ sdparse
+da so te eee ti stroški čim manjši
+mark(manjši,da)
+cop(manjši,so)
+nsubj(manjši,stroški)
+advmod(manjši,čim)
+reparandum(ti,te)
+det(stroški,ti)
+~~~
+
+~~~ sdparse
+predavala gos- bo gospa doktor
+nsubj(predavala,gospa)
+aux(predavala,bo)
+reparandum(gospa,gos-)
+nmod(gospa,doktor)
 ~~~
 
 
