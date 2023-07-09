@@ -2521,6 +2521,14 @@ cc(to,pa)
 ~~~
 
 ~~~ sdparse
+predavala gos- bo gospa doktor
+nsubj(predavala,gospa)
+aux(predavala,bo)
+reparandum(gospa,gos-)
+nmod(gospa,doktor)
+~~~
+
+~~~ sdparse
 ste zadovoljni s stanoval- s svojimi stanovalci
 reparandum(stanovalci,stanoval-)
 case(stanoval-,s-3)
@@ -2537,32 +2545,8 @@ mark(zožamo,da-4)
 
 
 
-~~~ sdparse
-da so te eee ti stroški čim manjši
-mark(manjši,da)
-cop(manjši,so)
-nsubj(manjši,stroški)
-advmod(manjši,čim)
-reparandum(ti,te)
-det(stroški,ti)
-~~~
-
-~~~ sdparse
-predavala gos- bo gospa doktor
-nsubj(predavala,gospa)
-aux(predavala,bo)
-reparandum(gospa,gos-)
-nmod(gospa,doktor)
-~~~
-
-
 #### reparandum - nezakljucene
 
-~~~ sdparse
-eem kako orož- orožje pa to
-reparandum(orožje,orož-)
-det(orožje,kako)
-~~~
 
 ~~~ sdparse
 če prav če sem prav razumel
@@ -2582,6 +2566,28 @@ reparandum(požre,požri)
 advmod(požre,naj-5)
 obj(požre,tisto)
 ~~~
+
+~~~ sdparse
+zdaj vse se da potem spraviti v povezati z kozmologijo
+discourse(da,zdaj)
+nsubj(da,vse)
+expl(da,se)
+advmod(da,potem)
+xcomp(da,povezati)
+reparandum(povezati,spraviti)
+orphan(spraviti,v)
+~~~
+
+~~~ sdparse
+nekega dne sem se eee sem se skregal
+advmod(skregal,dne)
+det(dne,nekega)
+aux(skregal,sem-6)
+expl(skregal,se-7)
+reparandum(skregal,sem-3)
+orphan(sem-3,se-4)
+~~~
+
 
 #### parataxis:restart
 ~~~ sdparse
