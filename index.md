@@ -2599,3 +2599,73 @@ parataxis:restart (kaže,sedi)
 kaj si zdaj pravkar katero črto boš narisala
 parataxis:restart (si,narisala)
 ~~~
+
+### veriženje reparandum
+
+~~~ sdparse
+iskalnik je po krajih po imenih po po po ukrepih ne
+reparandum(po-9,po-8)
+reparandum(po-9,po-7)
+case(ukrepih,po-9)
+~~~
+
+~~~ sdparse
+kako k- kako hodiš
+advmod(hodiš,kako-3)
+reparandum(kako-3,kako-1)
+reparandum(kako-3,k-)
+~~~
+
+### besedni red
+~~~ sdparse
+s katerimi rastlinami v povezavi
+case(rastlinami,s)
+det(rastlinami,katerimi)
+case(povezavi,v)
+nmod(rastlinami,povezavi)
+~~~
+
+~~~ sdparse
+nenazadnje so bili voditelji dolgo časa , voditelji TV dnevnikov , dolgo časa tudi napovedovalci
+appos(voditelji-4,voditelji-8)
+nsubj(napovedovalci,voditelji-4)
+obl(napovedovalci,časa-13)
+advmod(časa-13,dolgo-12)
+reparandum(časa-13,časa-6)
+advmod(časa-6,dolgo-5)
+advmod(napovedovalci,nenazadnje)
+advmod(napovedovalci,tudi)
+aux(napovedovalci,so)
+cop(napovedovalci,bili)
+punct(voditelji-8, ,-7)
+punct(voditelji-8, ,-11)
+nmod(voditelji-8,dnevnikov)
+nmod(dnevnikov,TV)
+~~~
+
+### veriženje discourse
+~~~ sdparse
+aja ja dobro
+discourse(dobro,aja)
+discourse(dobro,ja)
+~~~
+
+~~~ sdparse
+okej ja
+discourse(okej,ja)
+~~~
+
+~~~ sdparse
+ja ja … ja
+discourse(ja-1,ja-2)
+discourse(ja-1,ja-4)
+~~~
+
+### veriženje discourse
+~~~ sdparse
+hvala vam za eee vašo pripombo
+obj(hvala,vam)
+nmod(hvala,pripombo)
+~~~
+
+
