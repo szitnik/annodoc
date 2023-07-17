@@ -2716,3 +2716,9 @@ discourse(vleklo,ono)
 discourse(zasedbah,tako)
 ~~~
 
+### appos v govoru
+~~~ sdparse
+najbogatejši slovenec gospod [name:personal] je pripravljen da zapusti zemljo
+appos(slovenec,gospod)
+flat:name(slovenec,[name:personal])
+~~~
