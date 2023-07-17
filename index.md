@@ -2699,4 +2699,20 @@ obj(hvala,vam)
 nmod(hvala,pripombo)
 ~~~
 
+### expl: to
+~~~ sdparse
+tako da to pol nekega posebnega izobraževanja pa verjetno ni ne
+expl(ni,to)
+~~~
+
+### kazalni zaimki kot discourse
+~~~ sdparse
+pa ti bo vleklo ono v nos noter
+discourse(vleklo,ono)
+~~~
+
+~~~ sdparse
+še vedno rajši tako v malih zasedbah bolj ne ?
+discourse(zasedbah,tako)
+~~~
 
