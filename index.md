@@ -2491,12 +2491,34 @@ amod(diplomi,novi)
 ~~~
 
 
-#### cela, celih (flat)
+#### flat v govoru
 ~~~ sdparse
 dva cela pet odstotka
 flat(dva,cela)
 flat(dva,pet)
 nummod(odstotka,dva)
+~~~
+
+~~~ sdparse
+skok na trikrat dvojni v pika Radio Capris pika si poševnica Kikiriki
+nmod(skok,v)
+case(v,na)
+advmod(dvojni,trikrat)
+amod(v,dvojni)
+flat(v,pika)
+flat(v,Radio)
+nmod(Radio,Capris)
+flat(v,pika)
+flat(v,si)
+flat(v,poševnica)
+flat(v,Kikiriki)
+~~~
+
+~~~ sdparse
+i a si torej
+flat(i,a)
+flat(i,si)
+discourse(i,torej)
 ~~~
 
 #### reparandum
