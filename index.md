@@ -2289,6 +2289,14 @@ orphan(jaz,njemu)
 cc(jaz,in)
 ~~~
 
+~~~ sdparse
+ja to pa bova z-
+discourse(bova,ja)
+obj(bova,to)
+advmod(bova,pa)
+orphan(bova,z-)
+~~~
+
 
 ~~~ sdparse
 upam da
