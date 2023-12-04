@@ -2727,13 +2727,13 @@ flat:name(slovenec,[name:personal])
 
 ### Zadostnost in presežek
 ~~~ sdparse
-Pri nas pomanjkanje časa še ni tako pereče, da bi že razmišljali o tem
+Pri nas pomanjkanje časa še ni tako pereče , da bi že razmišljali o tem .
 advmod(pereče,tako)
 advcl(pereče,razmišljali)
 ~~~
 
 ~~~ sdparse
-Nikoli ni bilo toliko socialno patoloških pojavov kot danes.
+Nikoli ni bilo toliko socialno patoloških pojavov kot danes .
 det(pojavov,toliko)
 obl(toliko,danes)
 ~~~
