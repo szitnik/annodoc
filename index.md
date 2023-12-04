@@ -2722,3 +2722,18 @@ najbogatejši slovenec gospod [name:personal] je pripravljen da zapusti zemljo
 appos(slovenec,gospod)
 flat:name(slovenec,[name:personal])
 ~~~
+
+## Dodatki v smernice December 2023
+
+### Zadostnost in presežek
+~~~ sdparse
+Pri nas pomanjkanje časa še ni tako pereče, da bi že razmišljali o tem
+advmod(pereče,tako)
+advcl(pereče,razmišljali)
+~~~
+
+~~~ sdparse
+Nikoli ni bilo toliko socialno patoloških pojavov kot danes.
+det(pojavov,toliko)
+obl(toliko,danes)
+~~~
