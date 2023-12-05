@@ -2737,3 +2737,15 @@ Nikoli ni bilo toliko socialno patoloških pojavov kot danes .
 det(pojavov,toliko)
 obl(toliko,danes)
 ~~~
+
+### Sole obj
+~~~ sdparse
+Županja se je odločila , da jim bo občina po svojih močeh pomagala .
+iobj(pomagala, jim)
+~~~
+
+~~~ sdparse
+Takoj nam je povedal , da morajo biti za to odgovorni drugi .
+iobj(povedal, nam)
+ccomp(povedal, odgovorni)
+~~~
