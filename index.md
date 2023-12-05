@@ -2749,3 +2749,15 @@ Takoj nam je povedal , da morajo biti za to odgovorni drugi .
 iobj(povedal, nam)
 ccomp(povedal, odgovorni)
 ~~~
+
+### Premi govor s ccomp
+~~~ sdparse
+Takole se je glasil : " Ali mora kmet res vedno le ubogati ? "
+ccomp(glasil, mora)
+~~~
+
+~~~ sdparse
+" To je Victor , " je pojasnil Victor Riccio .
+ccomp(pojasnil, Victor-4)
+cop(Victor-4, je-3) 
+~~~
