@@ -2777,3 +2777,10 @@ advcl(hudi, popizditi)
 case(popizditi, za)
 cop(hudi, so)
 ~~~
+
+### appos v govoru - popravek
+~~~ sdparse
+najbogatejši slovenec gospod [name:personal] je pripravljen da zapusti zemljo
+appos(slovenec, gospod)
+nmod(gospod, [name:persona])
+~~~
