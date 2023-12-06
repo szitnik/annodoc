@@ -2761,3 +2761,19 @@ ccomp(glasil, mora)
 ccomp(pojasnil, Victor-4)
 cop(Victor-4, je-3) 
 ~~~
+
+### Za + nedoločnik
+~~~ sdparse
+Vzemi s sabo nekaj za se ogrniti .
+acl(nekaj, ogrniti)
+case(ogrniti, za)
+obj(ogrniti, se)
+obj(Vzemi, nekaj)
+~~~
+
+~~~ sdparse
+Džingli so res za popizditi hudi .
+advcl(hudi, popizditi)
+case(popizditi, za)
+cop(hudi, so)
+~~~
