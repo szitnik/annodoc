@@ -2740,6 +2740,11 @@ obl(toliko,danes)
 
 ### Sole obj
 ~~~ sdparse
+Ni mu še pojasnil .
+iobj(pojasnil, mu)
+~~~
+
+~~~ sdparse
 Županja se je odločila , da jim bo občina po svojih močeh pomagala .
 iobj(pomagala, jim)
 ~~~
