@@ -2789,3 +2789,20 @@ najbogatejši slovenec gospod [name:personal] je pripravljen da zapusti zemljo
 appos(slovenec, gospod)
 nmod(gospod, [name:personal])
 ~~~
+
+### Popravek povedkovih prilastkov
+~~~ sdparse
+Lase je imela pristrižene .
+advcl(imela,pristrižene)
+obj(imela,Lase)
+~~~
+~~~ sdparse
+Vsa prestrašena je Mrvica stekla po pomoč .
+advcl(stekla,prestrašena)
+nsubj(stekla,Mrvica)
+~~~
+~~~ sdparse
+Ponesrečeno žensko so hudo ranjeno odpeljali v UKC .
+advcl(odpeljali,ranjeno)
+obj(odpeljali,žensko)
+~~~
