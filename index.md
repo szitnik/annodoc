@@ -2813,7 +2813,10 @@ obj(odpeljali,žensko)
 ~~~ sdparse
 tisti , kaj so iz Maribora
 acl(tisti,so)
-mark(so,mark)
+mark(so,kaj)
+obl(so,Maribora)
+case(Maribora,iz)
+punct(so,,)
 ~~~
 
 ### advmod
