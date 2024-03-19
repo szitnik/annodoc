@@ -700,11 +700,11 @@ nsubj(zadeva,sporna)
 cop(sporna,je)
 ~~~
 ~~~ sdparse
-Zato tudi ne manjka odzivov nanjo
-nsubj(manjka,odzivov)
+V Sloveniji tega seveda ni .
+nsubj(ni,tega)
 ~~~
 ~~~ sdparse
-prek pobočnice poteka 15 ozkih valovitih	prog 
+prek pobočnice poteka 15 ozkih valovitih prog 
 nsubj(poteka,prog)
 ~~~
 
@@ -2806,3 +2806,115 @@ Ponesrečeno žensko so hudo ranjeno odpeljali v UKC .
 advcl(odpeljali,ranjeno)
 obj(odpeljali,žensko)
 ~~~
+
+## Novi primeri za v1.5 (večinoma govor)
+
+### acl
+~~~ sdparse
+tisti, kaj so iz Maribora
+acl(tisti,so)
+mark(so,mark)
+~~~
+
+### advmod
+~~~ sdparse
+kaj pa vem bi kar ene štiri vzel
+advmod(štiri,ene)
+obj(vzel,štiri)
+advmod(štiri,kar)
+~~~
+
+### det
+~~~ sdparse
+ko bom imela čas samo zase pa za ta tretjega otroka
+det(otroka,ta)
+amod(otroka,tretjega)
+~~~
+
+### discourse
+~~~ sdparse
+edino pač zaradi tega imajo toliko skupin
+discourse(imajo,edino)
+discourse(imajo,pač)
+~~~
+
+~~~ sdparse
+in seveda , če se antibiotiki uporabljajo pretirano , je tega pojava še znatno več
+discourse(je,seveda)
+~~~
+
+~~~ sdparse
+kje so pa glavni zadržki teh trideset tisoč v bistvu ponudnikov
+discourse(so,bistvu)
+case(bistvu,v)
+nsubj(so,zadržki)
+nmod(zadržki,ponudnikov)
+det(ponudnikov,teh)
+flat(trideset,tisoč)
+nummod(ponudnikov,trideset)
+~~~
+
+~~~ sdparse
+jaz v bistvu vsakemu odgovorim
+obl(odgovorim,bistvu)
+case(bistvu,v)
+nsubj(odgovorim,jaz)
+iobj(odgovorim,vsakemu)
+~~~
+
+### orphan
+~~~ sdparse
+ja žena kupuje za moj denar ampak eee
+discourse(kupuje,ja)
+nsubj(kupuje,žena)
+obl(kupuje,denar)
+det(denar,moj)
+case(denar,za)
+orphan(kupuje,orphan)
+discourse:filler(kupuje,eee)
+~~~
+
+~~~ sdparse
+ne gre za gre za postopek
+discourse(gre-2,ne)
+reparandum(gre-2,gre-1)
+orphan(gre-1,za-1)
+obl(gre-2,postopek)
+case(postopek,za-2)
+~~~
+
+### Težavnejše-elipse
+~~~ sdparse
+eee ja najprej hvala [ime] ker jaz sem rože zelo vesela
+discourse:filler(hvala,eee)
+discourse(hvala,ja)
+orphan(hvala,advmod)
+vocative(hvala,[ime])
+orphan(hvala,vesela)
+~~~
+
+### Težavnejše-nedoločniki
+~~~ sdparse
+imamo volumen pa prostornino za izračunati
+xcomp(imamo,izračunati)
+case(izračunati,case)
+obj(izračunati,volumen)
+conj(volumen,prostornino)
+cc(prostornino,pa)
+~~~
+
+### Težavnejše-neprojektivnost
+~~~ sdparse
+on se je amatersko ukvarjal , pa tudi malo profesionalno , s petjem
+amod(ukvarjal,amatersko)
+obl(ukvarjal,petjem)
+case(petjem,s)
+conj(amatersko,profesionalno)
+advmod(profesionalno,malo)
+advmod(profesionalno,tudi)
+cc(profesionalno,pa)
+punct(profesionalno, ,-1)
+punct(profesionalno, ,-2)
+~~~
+
+
