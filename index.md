@@ -2811,7 +2811,7 @@ obj(odpeljali,žensko)
 
 ### acl
 ~~~ sdparse
-tisti, kaj so iz Maribora
+tisti , kaj so iz Maribora
 acl(tisti,so)
 mark(so,mark)
 ~~~
@@ -2829,6 +2829,7 @@ advmod(štiri,kar)
 ko bom imela čas samo zase pa za ta tretjega otroka
 det(otroka,ta)
 amod(otroka,tretjega)
+case(otroka,za)
 ~~~
 
 ### discourse
@@ -2870,17 +2871,17 @@ nsubj(kupuje,žena)
 obl(kupuje,denar)
 det(denar,moj)
 case(denar,za)
-orphan(kupuje,orphan)
+orphan(kupuje,ampak)
 discourse:filler(kupuje,eee)
 ~~~
 
 ~~~ sdparse
 ne gre za gre za postopek
-discourse(gre-2,ne)
-reparandum(gre-2,gre-1)
-orphan(gre-1,za-1)
-obl(gre-2,postopek)
-case(postopek,za-2)
+discourse(gre-4,ne)
+reparandum(gre-4,gre-2)
+orphan(gre-2,za-3)
+obl(gre-4,postopek)
+case(postopek,za-5)
 ~~~
 
 ### Težavnejše-elipse
@@ -2888,7 +2889,7 @@ case(postopek,za-2)
 eee ja najprej hvala [ime] ker jaz sem rože zelo vesela
 discourse:filler(hvala,eee)
 discourse(hvala,ja)
-orphan(hvala,advmod)
+orphan(hvala,najprej)
 vocative(hvala,[ime])
 orphan(hvala,vesela)
 ~~~
@@ -2897,7 +2898,7 @@ orphan(hvala,vesela)
 ~~~ sdparse
 imamo volumen pa prostornino za izračunati
 xcomp(imamo,izračunati)
-case(izračunati,case)
+case(izračunati,za)
 obj(izračunati,volumen)
 conj(volumen,prostornino)
 cc(prostornino,pa)
@@ -2913,8 +2914,8 @@ conj(amatersko,profesionalno)
 advmod(profesionalno,malo)
 advmod(profesionalno,tudi)
 cc(profesionalno,pa)
-punct(profesionalno, ,-1)
-punct(profesionalno, ,-2)
+punct(profesionalno, ,-6)
+punct(profesionalno, ,-11)
 ~~~
 
 
