@@ -2921,4 +2921,49 @@ punct(profesionalno, ,-6)
 punct(profesionalno, ,-11)
 ~~~
 
+### Težavnejše-ponavljanja
+~~~ sdparse
+vidite lahko da je zelo zelo natančno vse
+conj(zelo-5,zelo-6)
+advmod(natančno,zelo-5)
+~~~
 
+~~~ sdparse
+ja joj skozi skozi skozi
+conj(skozi-3,skozi-4)
+conj(skozi-3,skozi-5)
+discourse(skozi-3,ja)
+discourse(skozi-3,joj)
+~~~
+
+~~~ sdparse
+lahko greste ja ja ja
+discourse(greste,ja-3)
+discourse(greste,ja-4)
+discourse(greste,ja-5)
+~~~
+
+~~~ sdparse
+huh eem da da zožamo nekatere eee teritorije ne
+reparandum(da-4,da-3)
+mark(zožamo,da-4)
+~~~
+
+~~~ sdparse
+veliko je teh akcij ki pripomorejo da tudi tisti ki si sicer res nič ne morejo privoščiti da dobijo
+ccomp(pripomorejo,dobijo)
+mark(dobijo,da-7)
+mark(dobijo,da-18)
+~~~
+
+### Težavnejše-ponavljanja
+~~~ sdparse
+eee zato pa za st- strokovne besedila je pa osem evrov
+amod(besedila,strokovne)
+~~~
+
+~~~ sdparse
+pa midva s Špelp sva pa zdaj pred kratkim začela gledati prison break, od znova
+case(znova,od)
+advmod(gledati,znova)
+~~~
