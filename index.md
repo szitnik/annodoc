@@ -2489,15 +2489,18 @@ obj(poznajo,tega)
 
 #### govor - določilniki
 ~~~ sdparse
-zdaj ste se dotaknili ene teme ki je letos aktualna
-det(teme,ene)
-~~~
-~~~ sdparse
 zdaj po tej ta novi diplomi je drugače
 det(diplomi,ta)
 amod(diplomi,novi)
 ~~~
-
+~~~ sdparse
+z eno roko primemo stopalo
+nummod(roko,eno)
+~~~
+~~~ sdparse
+zdaj ste se dotaknili ene teme ki je letos aktualna
+nummod(teme,ene)
+~~~
 
 #### flat v govoru
 ~~~ sdparse
