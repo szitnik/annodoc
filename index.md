@@ -2986,3 +2986,24 @@ fixed(če,ne)
 advcl(zaključujem,ne)
 mark(ne,Če)
 ~~~
+
+### Poudarjalni členki/prislovi
+~~~sdparse
+A to še zdaleč ne pomeni , da v tem primeru lahko Slovenija spet zadrema .
+advmod(zdaleč,še)
+~~~
+
+~~~sdparse
+Poleg tega je pa zadeva lahko tudi ustavno sporna .
+advmod(sporna, tudi)
+~~~
+
+~~~sdparse
+Več bomo fotkali in posledično tudi več tiskali
+advmod(tiskali, tudi)
+~~~
+
+~~~sdparse
+To sem že nekje napisal , ali ne ?
+advmod(napisal, že)
+~~~
