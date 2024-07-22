@@ -2970,3 +2970,19 @@ pa midva s Špelp sva pa zdaj pred kratkim začela gledati prison break, od znov
 case(znova,od)
 advmod(gledati,znova)
 ~~~
+
+## Novi primeri za 1.6
+
+### Fixed - pojasnjevalne strukture
+~~~sdparse
+Veliko, če ne kar vse, je odvisno od tega, kje in kako kdo živi .
+appos(vse,Veliko)
+cc(vse,če)
+fixed(če,ne)
+~~~
+
+~~~sdparse
+Če ne, zaključujem razpravo in predlagam, da preidemo na glasovanje .
+advcl(zaključujem,ne)
+mark(ne,če)
+~~~
