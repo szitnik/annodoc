@@ -2975,14 +2975,14 @@ advmod(gledati,znova)
 
 ### Fixed - pojasnjevalne strukture
 ~~~sdparse
-Veliko, če ne kar vse, je odvisno od tega, kje in kako kdo živi .
+Veliko , če ne kar vse , je odvisno od tega , kje in kako kdo živi .
 appos(vse,Veliko)
 cc(vse,če)
 fixed(če,ne)
 ~~~
 
 ~~~sdparse
-Če ne, zaključujem razpravo in predlagam, da preidemo na glasovanje .
+Če ne , zaključujem razpravo in predlagam , da preidemo na glasovanje .
 advcl(zaključujem,ne)
 mark(ne,če)
 ~~~
