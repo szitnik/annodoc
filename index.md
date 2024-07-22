@@ -2976,7 +2976,7 @@ advmod(gledati,znova)
 ### Fixed - pojasnjevalne strukture
 ~~~sdparse
 Veliko , če ne kar vse , je odvisno od tega , kje in kako kdo živi .
-appos(vse,Veliko)
+appos(Veliko,vse)
 cc(vse,če)
 fixed(če,ne)
 ~~~
