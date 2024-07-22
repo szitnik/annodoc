@@ -2984,5 +2984,5 @@ fixed(če,ne)
 ~~~sdparse
 Če ne , zaključujem razpravo in predlagam , da preidemo na glasovanje .
 advcl(zaključujem,ne)
-mark(ne,če)
+mark(ne,Če)
 ~~~
