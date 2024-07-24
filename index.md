@@ -1952,7 +1952,7 @@ case(odrasli,kot)
 Alverstead je videti šokiran .
 cop(videti,je)
 nsubj(videti,Alverstead)
-acl(Alverstead,šokiran)
+advcl(videti,šokiran)
 ~~~
 ~~~ sdparse
 Stolpnica je bila videti kot avtocesta v nebo .
