@@ -2137,15 +2137,6 @@ flat:name(John,Langdon)
 flat:name(John,Down)
 ~~~
 
-#### večbesedna tujejezična lastna imena
-
-~~~ sdparse
-Angry Birds je franšiza videoiger .
-nmod(Angry,Birds)
-nsubj(franšiza,Angry)
-cop(franšiza,je)
-~~~
-
 #### expl: rodilniški zaimki 
 
 ~~~ sdparse
@@ -3006,4 +2997,28 @@ advmod(tiskali, tudi)
 ~~~sdparse
 To sem že nekje napisal , ali ne ?
 advmod(napisal, že)
+~~~
+
+### večbesedna tujejezična lastna imena
+
+~~~sdparse
+Zmanjkalo je denarja za film The Life of Brian .
+nmod(film,The)
+flat:foreign(The,Life)
+flat:foreign(The,of)
+flat:foreign(The,Brian)
+~~~
+
+~~~sdparse
+Brdo pri Kranju Estate
+flat:foreign(Brdo,Estate)
+nmod(Brdo,Kranju)
+case(Kranju,pri)
+~~~
+
+~~~sdparse
+Konferenca je potekala v San Franciscu .
+obl(potekala,Franciscu)
+nmod(Franciscu,San)
+case(Franciscu,v)
 ~~~
