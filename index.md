@@ -3000,7 +3000,6 @@ advmod(napisal, že)
 ~~~
 
 ### večbesedna tujejezična lastna imena
-
 ~~~sdparse
 Zmanjkalo je denarja za film The Life of Brian .
 nmod(film,The)
@@ -3021,4 +3020,10 @@ Konferenca je potekala v San Franciscu .
 obl(potekala,Franciscu)
 nmod(Franciscu,San)
 case(Franciscu,v)
+~~~
+
+### Premi govor
+~~~sdparse
+Nato se je prikazal še Aleš : » Kaj sem zamudil ? «
+parataxis(prikazal,zamudil)
 ~~~
