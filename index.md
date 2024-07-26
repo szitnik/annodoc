@@ -3027,3 +3027,10 @@ case(Franciscu,v)
 Nato se je prikazal še Aleš : » Kaj sem zamudil ? «
 parataxis(prikazal,zamudil)
 ~~~
+
+### Advmod vezanje na jedro vs. prilastek
+~~~sdparse
+Poleg tega je pa zadeva lahko tudi ustavno sporna .
+advmod(sporna,tudi)
+advmod(sporna,ustavno)
+~~~
