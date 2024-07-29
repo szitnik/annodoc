@@ -3022,6 +3022,12 @@ nmod(Franciscu,San)
 case(Franciscu,v)
 ~~~
 
+~~~sdparse
+Max Planck Society
+flat:foreign(Max,Society)
+flat:name(Max,Planck)
+~~~
+
 ### Premi govor
 ~~~sdparse
 Nato se je prikazal še Aleš : » Kaj sem zamudil ? «
