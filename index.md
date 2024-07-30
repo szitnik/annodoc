@@ -3045,13 +3045,16 @@ advmod(sporna,ustavno)
 ~~~sdparse
 V Hochfilzen na biatlon , v Beljak na skoke .
 orphan(Hochfilzen,biatlon)
+case(Hochfilzen,V)
 parataxis(Hochfilzen,Beljak)
+case(Beljak,v)
 orphan(Beljak,skoke)
 ~~~
 
 ~~~sdparse
 Večinoma kot poustvarjalko , vendar me zadnje čase mika pot lastnega ustvarjanja glasbe .
 orphan(poustvarjalko,Večinoma)
+case(poustvarjalko,kot)
 conj(poustvarjalko,mika)
 cc(mika,vendar)
 ~~~
