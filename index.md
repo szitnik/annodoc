@@ -3040,3 +3040,18 @@ Poleg tega je pa zadeva lahko tudi ustavno sporna .
 advmod(sporna,tudi)
 advmod(sporna,ustavno)
 ~~~
+
+### Elipse s parataxis in conj
+~~~sdparse
+V Hochfilzen na biatlon , v Beljak na skoke .
+orphan(Hochfilzen,biatlon)
+parataxis(Hochfilzen,Beljak)
+orphan(Beljak,skoke)
+~~~
+
+~~~sdparse
+Večinoma kot poustvarjalko , vendar me zadnje čase mika pot lastnega ustvarjanja glasbe .
+orphan(poustvarjalko,Večinoma)
+conj(poustvarjalko,mika)
+cc(mika,vendar)
+~~~
