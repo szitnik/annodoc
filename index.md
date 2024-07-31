@@ -2957,7 +2957,7 @@ amod(besedila,strokovne)
 ~~~
 
 ~~~ sdparse
-pa midva s Špelp sva pa zdaj pred kratkim začela gledati prison break, od znova
+pa midva s Špelo sva pa zdaj pred kratkim začela gledati prison break, od znova
 case(znova,od)
 advmod(gledati,znova)
 ~~~
