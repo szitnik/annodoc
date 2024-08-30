@@ -2485,12 +2485,12 @@ det(diplomi,ta)
 amod(diplomi,novi)
 ~~~
 ~~~ sdparse
-z eno roko primemo stopalo
-nummod(roko,eno)
+zdaj ste se dotaknili ene teme ki je letos aktualna
+det(teme,ene)
 ~~~
 ~~~ sdparse
-zdaj ste se dotaknili ene teme ki je letos aktualna
-nummod(teme,ene)
+z eno roko primemo stopalo
+nummod(roko,eno)
 ~~~
 
 #### flat v govoru
