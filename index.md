@@ -3071,5 +3071,13 @@ Vprašal je Matica , svojega prijatelja , če pride k njemu .
 appos(Matica,prijatelja)
 punct(prijatelja,,-4)
 punct(pride,,-7)
+ccomp(Vprašal,pride)
+~~~
+~~~sdparse
+Vprašal je , eee , kako se mi zdi .
+punct(eee,,-3)
+punct(zdi,,-5)
+discourse:filler(Vprašal,eee)
+ccomp(Vprašal,zdi)
 ~~~
 
