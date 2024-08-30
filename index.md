@@ -3058,3 +3058,18 @@ case(poustvarjalko,kot)
 conj(poustvarjalko,mika)
 cc(mika,vendar)
 ~~~
+
+### Deljena ločila
+~~~sdparse
+Pozdravil je Matica , svojega prijatelja , in se odpeljal.
+appos(Matica,prijatelja)
+punct(prijatelja,,-4)
+punct(prijatelja,,-7)
+~~~
+~~~sdparse
+Vprašal je Matica , svojega prijatelja , če pride k njemu .
+appos(Matica,prijatelja)
+punct(prijatelja,,-4)
+punct(pride,,-7)
+~~~
+
